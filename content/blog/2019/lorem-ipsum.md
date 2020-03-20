@@ -4,7 +4,7 @@ date: 2019-03-20T18:42:38+02:00
 description: "This is a short description of the page"
 draft: true
 ReadingTime: 5
-images: ["/images/blog/2019/03/fixie.jpg"]
+images: ["images/blog/2019/03/fixie.jpg"]
 categories:
   - Fixie
   - Montage
