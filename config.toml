@@ -1,0 +1,71 @@
+baseURL = "https://untivoyage.netlify.com/"
+languageCode = "en-us"
+title = "Un Ti Voyage à Vélo"
+
+theme = "bloggeri"
+
+googleAnalytics = "UA-123-45"
+disqusShortname = "untivoyage"
+
+paginate = 4
+
+[related]
+    threshold = 0
+    includeNewer = true
+    toLower = false
+
+    [[related.indices]]
+        name = "categories"
+        weight = 100
+
+    [[related.indices]]
+        name = "date"
+        weight = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+    description = "My site description"
+    author = "Didier Dumortier"
+    authorImage = "/images/didier.jpeg"
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog"
+
+[[menu.main]]
+    name = "Categories"
+    url = "/categories"
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact"
+
+[[menu.social]]
+    name = "GitHub"
+    url = "https://github.com/did1979"
+    pre = "<i class='fab fa-github'></i>"
+
+[[menu.social]]
+    name = "Twitter"
+    url = "https://twitter.com/didier.dumortier"
+    pre = "<i class='fab fa-twitter'></i>"
+
+[[menu.footer]]
+  name = "About"
+  url = "/about"
+
+[[menu.footer]]
+  name = "Privacy"
+  url = "/privacy"
+
+[[menu.footer]]
+  name = "Contact"
+  url = "/contact"

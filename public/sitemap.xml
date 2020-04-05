@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://untivoyage.netlify.com/contact/</loc>
+    <lastmod>2020-03-18T10:57:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://untivoyage.netlify.com/categories/</loc>
+    <lastmod>2020-03-17T17:58:01+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://untivoyage.netlify.com/</loc>
+    <lastmod>2020-03-16T16:28:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://untivoyage.netlify.com/blog/</loc>
+  </url>
+  
+  <url>
+    <loc>http://untivoyage.netlify.com/tags/</loc>
+  </url>
+  
+</urlset>

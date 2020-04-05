@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Un Ti Voyage à Vélo</title>
+    <link>http://untivoyage.netlify.com/</link>
+    <description>Recent content on Un Ti Voyage à Vélo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Mar 2020 16:28:14 +0100</lastBuildDate>
+    
+	<atom:link href="http://untivoyage.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact</title>
+      <link>http://untivoyage.netlify.com/contact/</link>
+      <pubDate>Wed, 18 Mar 2020 10:57:42 +0100</pubDate>
+      
+      <guid>http://untivoyage.netlify.com/contact/</guid>
+      <description>Opening hours Mon-Fri: 10:00-20:00
+Sat: 10:00-18:00
+Sun: closed
+ Address My Company Töölönlahdenkatu 4 00100 Helsinki
+Finland
+  Our services  We can do this We can do that We can do anything  </description>
+    </item>
+    
+  </channel>
+</rss>
