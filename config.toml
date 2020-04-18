@@ -1,5 +1,5 @@
-baseURL = "https://untivoyage.netlify.com/"
-languageCode = "en-us"
+baseURL = "https://untivoyage.netlify.app/"
+languageCode = "fr-fr"
 title = "Un Ti Voyage à Vélo"
 
 theme = "bloggeri"
@@ -8,6 +8,10 @@ googleAnalytics = "UA-123-45"
 disqusShortname = "untivoyage"
 
 paginate = 4
+
+[taxonomies]
+  category = "categories"
+  voyages = "voyages"
 
 [related]
     threshold = 0
@@ -28,25 +32,34 @@ paginate = 4
       unsafe = true
 
 [params]
-    description = "My site description"
+    description = "Mon petit vite de voyages"
     author = "Didier Dumortier"
     authorImage = "/images/didier.jpeg"
 
 [[menu.main]]
-  name = "About"
-  url = "/about"
+  name = "A propos"
+  url = "/a-propos"
+  weight = 4
+
+[[menu.main]]
+  name = "Voyages"
+  url = "/voyages"
+  weight = 3
 
 [[menu.main]]
   name = "Blog"
   url = "/blog"
+  weight = 1
 
 [[menu.main]]
-    name = "Categories"
+    name = "Catégories"
     url = "/categories"
+    weight = 2
 
 [[menu.main]]
   name = "Contact"
   url = "/contact"
+  weight = 10
 
 [[menu.social]]
     name = "GitHub"
@@ -59,12 +72,12 @@ paginate = 4
     pre = "<i class='fab fa-twitter'></i>"
 
 [[menu.footer]]
-  name = "About"
-  url = "/about"
+  name = "A propos"
+  url = "/a-propos"
 
 [[menu.footer]]
-  name = "Privacy"
-  url = "/privacy"
+  name = "Mentions légales"
+  url = "/mentions-legales"
 
 [[menu.footer]]
   name = "Contact"

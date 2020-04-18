@@ -6,5 +6,8 @@ description: ""
 ReadingTime: 5
 images: ["/images/blog/2019/03/specialized.jpg"]
 categories:
+- montage
+voyages:
+- Irlande
 ---
 

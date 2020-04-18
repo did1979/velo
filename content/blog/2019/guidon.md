@@ -7,5 +7,7 @@ ReadingTime: 5
 images: ["/images/blog/2019/03/guidon.jpg"]
 categories:
 - montage
+voyages:
+- Irlande
 ---
 
