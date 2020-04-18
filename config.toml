@@ -3,9 +3,11 @@ languageCode = "fr-fr"
 title = "Un Ti Voyage à Vélo"
 
 theme = "bloggeri"
-
+DefaultContentLanguage = "fr"
 googleAnalytics = "UA-123-45"
 disqusShortname = "untivoyage"
+RemovePathAccents = true
+PreserveTaxonomyNames = false
 
 paginate = 4
 

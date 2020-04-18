@@ -5,9 +5,10 @@ draft: false
 description: "Chaine pignon fixe."
 ReadingTime: 5
 categories:
-  - Montage
-images:
-- /images/blog/2019/03/chaine.jpg
+- Montage
+voyages:
+- Slovénie
+images: ["/images/blog/2019/03/chaine.jpg"]
 ---
 # H1 level title
 

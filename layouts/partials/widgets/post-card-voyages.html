@@ -9,7 +9,11 @@
   </div>
   <div class="card-content">
     <a class="title is-4" href="{{ .Permalink }}">{{ .Title }}</a>
-    <span class="heading">{{ .Site.Params.Author }} | <time>{{ .PublishDate.Format "January 2, 2006"}}</time></span>
+
+    <span class="heading">{{ .Site.Params.Author }} | <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+      {{ .PublishDate.Day }} {{ index $.Site.Data.mois (printf "%d" .PublishDate.Month) }} {{ .PublishDate.Year }}
+    </time>
+      </span>
     <div class="content">
       {{ .Summary }}
     </div>

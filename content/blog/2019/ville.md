@@ -6,6 +6,8 @@ description: ""
 ReadingTime: 5
 images: ["/images/blog/2019/03/ville.jpg"]
 categories:
-- voyage
+- fixie
+voyages:
+- Slovénie
 ---
 
