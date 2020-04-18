@@ -1,8 +1,8 @@
 ---
 title: "A propos"
 date: 2020-03-17T17:58:01+01:00
-draft: true
-layout: about
+draft: false
+layout: "about"
 heroimage: "/images/gravel.jpg"
 herotext: "A propos d'un ti voyage"
 description: "Ce site est rédigé en toute humilité par Didier Dumortier afin de partager ses voyages avec ses amis. Les commentaires sont les bienvenus et vos données saisies ne seront pas utilisées à des fins lucratives."
