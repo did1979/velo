@@ -19,7 +19,7 @@ This another paragraph with *emphasis* and **strong emphasis**.
 ## H2 level title
 ### H3 level title
 
-[This is a hyperlink](http://www.google.com/)
+[This is a hyperlink](https://www.google.com/)
 
 I like lists because they are:
 
