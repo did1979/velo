@@ -1,6 +1,6 @@
 baseURL = "https://untivoyage.netlify.app/"
 languageCode = "fr-fr"
-title = "Un Ti Voyage à Vélo"
+title = "UnTi Voyage à Vélo"
 
 theme = "bloggeri"
 DefaultContentLanguage = "fr"
@@ -8,7 +8,9 @@ googleAnalytics = "UA-123-45"
 disqusShortname = "untivoyage"
 RemovePathAccents = true
 PreserveTaxonomyNames = false
-
+[permalinks]
+    blog = "/blog/:filename/"
+    
 paginate = 4
 
 [taxonomies]
@@ -23,6 +25,10 @@ paginate = 4
     [[related.indices]]
         name = "categories"
         weight = 100
+    
+    [[related.indices]]
+        name = "voyages"
+        weight = 130
 
     [[related.indices]]
         name = "date"
@@ -34,7 +40,7 @@ paginate = 4
       unsafe = true
 
 [params]
-    description = "Mon petit vite de voyages"
+    description = "Mon petit site de voyages à vélo"
     author = "Didier Dumortier"
     authorImage = "/images/didier.jpeg"
 
