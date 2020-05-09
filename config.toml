@@ -14,7 +14,7 @@ PreserveTaxonomyNames = false
 paginate = 4
 
 [taxonomies]
-  category = "categories"
+  categories = "categories"
   voyages = "voyages"
 
 [related]

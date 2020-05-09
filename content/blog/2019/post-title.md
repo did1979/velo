@@ -8,5 +8,7 @@ images: ["/images/blog/2019/03/specialized.jpg"]
 categories:
   - Fixie
   - Voyage
+voyages:
+  - Irlande
 ---
 

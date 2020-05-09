@@ -19,20 +19,25 @@
                   {{ .PublishDate.Year }}
                 </time> |
                 {{ .ReadingTime }} {{ if eq .ReadingTime 1 }} minute {{ else }} minutes {{ end }}</p>
-                {{ if .Params.draft }}
+              {{ if .Params.draft }}
               <p><span class="has-text-warning">DRAFT {{ .WordCount }} WORDS</span></p>
               {{ end }}
             </div>
             <div class="Column">
               <div class="buttons no-margin">
                 {{ range $idx, $category := .Params.categories }}
-                {{ if ne $idx 0 }}, {{ end }}<a href="{{ "categories/" | relURL }}{{ $category | urlize }}"
-                  class="button is-small is-primary skew category-tag"><span class="unskew">{{ $category }}</span></a>
+                {{ with partial "func/GetTermPage" (dict "taxonomy" "categories" "term" $category) }}
+                {{ if ne $idx 0 }} {{ end }}<a href="{{ .RelPermalink }}"
+                  class="button is-small is-primary skew category-tag"><span class="unskew">{{ .Title }}</span></a>
+                {{ end }}
                 {{ end }}
                 {{ range $idx, $voyage := .Params.voyages }}
-                {{ if ne $idx 0 }}, {{ end }}<a href="{{ "voyages/" | relURL }}{{ $voyage | urlize }}"
-                  class="button is-small is-info skew category-tag"><span class="unskew">{{ $voyage }}</span></a>
+                {{ with partial "func/GetTermPage" (dict "taxonomy" "voyages" "term" $voyage) }}
+                {{ if ne $idx 0 }} {{ end }}<a href="{{ .RelPermalink }}"
+                  class="button is-small is-info skew category-tag"><span class="unskew">{{ .Title }}</span></a>
                 {{ end }}
+                {{ end }}
+
               </div>
             </div>
           </div>

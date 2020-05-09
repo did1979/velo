@@ -27,26 +27,32 @@
         <div class="content">
           {{ .Content }}
         </div>
-          <aside class="menu">
-            <p class="menu-label">
-              Voyages
-            </p>
-            <ul class="menu-list">
-              {{ range $name, $items := .Site.Taxonomies.voyages }}
-              <li><a href="{{ $.Site.BaseURL }}voyages/{{ $name | urlize | lower }}">{{ $name | humanize }}
-                  &nbsp;<span>({{ len $items }})</span></a></li>
-              {{ end }}
-            </ul>
-            <p class="menu-label">
-              Catégories
-            </p>
-            <ul class="menu-list">
-              {{ range $name, $items := .Site.Taxonomies.categories }}
-              <li><a href="{{ $.Site.BaseURL }}categories/{{ $name | urlize | lower }}">{{ $name | humanize }}
-                  &nbsp;<span>({{ len $items }})</span></a></li>
-              {{ end }}
-            </ul>
-          </aside>
+        <hr>
+        <aside class="menu">
+          <p class="menu-label">
+            Voyages
+          </p>
+          <ul class="menu-list">
+
+            {{ range $name, $items := .Site.Taxonomies.voyages }}
+            {{ with partial "func/GetTermPage" (dict "taxonomy" "voyages" "term" $name) }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}&nbsp;<span>({{ len $items }})</span></a></li>
+            {{ end }}
+            {{ end }}
+          </ul>
+        </aside>
+        <hr>
+        <aside class="menu">
+          <p class="menu-label">
+            Catégories
+          </p>
+          <ul class="menu-list">
+            {{ range $name, $items := .Site.Taxonomies.categories }}
+            <li><a href="{{ $.Site.BaseURL }}categories/{{ $name | urlize | lower }}">{{ $name | humanize }}
+                &nbsp;<span>({{ len $items }})</span></a></li>
+            {{ end }}
+          </ul>
+        </aside>
       </div>
     </div>
   </div>
