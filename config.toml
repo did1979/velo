@@ -89,6 +89,12 @@ paginate = 4
   weight = 10
 
 [[menu.social]]
+    name = "CV"
+    url = "https://dumortier-cv.netlify.app"
+    pre = "<i class='fa fa-address-card'></i>"
+    weight = 6
+
+[[menu.social]]
     name = "GitHub"
     url = "https://github.com/did1979"
     pre = "<i class='fab fa-github'></i>"
@@ -106,11 +112,11 @@ paginate = 4
     pre = "<i class='fab fa-twitter'></i>"
     weight = 8
 
-[[menu.social]]
-    name = "Rss"
-    url = "https://untivoyage.netlify.app/rss.xml"
-    pre = "<i class='fa fa-rss'></i>"
-    weight = 9
+#[[menu.social]]
+#    name = "Rss"
+#    url = "https://untivoyage.netlify.app/rss.xml"
+#    pre = "<i class='fa fa-rss'></i>"
+#    weight = 9
 
 [[menu.social]]
     name = "Atom/Rss"
