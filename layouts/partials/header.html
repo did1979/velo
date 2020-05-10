@@ -25,7 +25,7 @@
         </div>
         <div class="navbar-end">
           {{ range .Site.Menus.social }}
-          <a href="{{ .URL }}" class="navbar-item is-hidden-touch" title="{{ .Name }}"><span
+          <a target="_blank" href="{{ .URL }}" class="navbar-item is-hidden-touch" title="{{ .Name }}"><span
               class="icon">{{ .Pre }}</span></a>
           {{ end }}
         </div>
