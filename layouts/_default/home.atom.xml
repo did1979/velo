@@ -1,0 +1,46 @@
+{{ printf `<?xml version="1.0" encoding="utf-8" standalone="yes" ?>` | safeHTML }}
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ with .Site.Language.Lang }}{{.}}{{end}}">
+    <id>{{ .Permalink }}</id>
+    <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}}{{ T "on" }}{{ end }}'{{ .Site.Title }}'{{ end }}</title>
+    {{ with .Site.Params.description -}}<subtitle>{{ . }}</subtitle>{{- end }}
+    {{ with .OutputFormats.Get "ATOM" }}{{ printf `<link href=%q rel="self" type=%q />` .Permalink .MediaType | safeHTML }}{{end}}
+    {{ range .AlternativeOutputFormats -}}
+    <link href="{{ if eq .Name "HTML" }}{{ $.Permalink }}{{ else }}{{ printf `%s%s.%s` $.Permalink (.Name | lower) (index .MediaType.Suffixes 0) }}{{end}}" rel="alternate" {{ printf "type=%q" .MediaType.Type | safeHTMLAttr }} />
+    {{end}}{{ if .Site.IsMultiLingual }}{{ range $.Site.Languages }}{{ if ne .Lang $.Site.Language.Lang }}{{ $lang := .Lang }}
+    {{ with $.OutputFormats.Get "ATOM" }}{{ printf `<link href=%q hreflang=%q rel="alternate" type=%q />` (print $lang "/" .Name "." (index .MediaType.Suffixes 0) |absURL) $lang .MediaType | safeHTML }}{{end}}
+    {{ range $.AlternativeOutputFormats -}}
+    <link href="{{ if eq .Name "HTML" }}{{ printf `%s/` $lang | absURL }}{{ else }}{{ printf `%s/%s.%s` $lang (.Name | lower) (index .MediaType.Suffixes 0) | absURL }}{{end}}" hreflang="{{ $lang }}" rel="alternate" {{ printf "type=%q" .MediaType.Type | safeHTMLAttr }} />
+    {{end}}{{end}}{{end}}{{end}}{{ with .Site.Copyright }}{{ $lang := $.Site.Language.Lang }}
+    <link href="http://creativecommons.org/publicdomain/zero/1.0/legalcode.{{ $lang }}" hreflang="{{ $lang }}" rel="license" />
+    <link href="http://creativecommons.org/publicdomain/zero/1.0/deed.{{ $lang }}" hreflang="{{ $lang }}" rel="license" />
+    <rights>© {{ $.Date.Format "2006" | safeHTML }} {{ $.Site.Author.name }}</rights>{{end}}
+    <icon>/img/favicon.ico</icon>
+    {{ with .Site.Params.logo }}<logo>{{.}}</logo>{{end}}
+    {{ if not .Date.IsZero }}<updated>{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</updated>{{ end }}
+    {{ with .Site.Author.name }}
+    <author>
+        <name>{{.}}</name>
+        {{ with $.Site.Author.email }}<email>{{.}}</email>{{end}}
+        <uri>{{ $.Permalink }}</uri>
+    </author>{{end}}
+    <generator uri="https://gohugo.io" version="{{ .Hugo.Version }}">Hugo</generator>
+    {{- $limit := (cond (le .Site.Config.Services.RSS.Limit 0) 65536 .Site.Config.Services.RSS.Limit) -}}
+    {{- $pages := where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.disable_feed" "!=" true -}}
+    {{- if ge $limit 1 -}}{{- $pages = $pages | first $limit -}}{{- end -}}
+    {{- range first $limit $pages }}
+    <entry>
+        <id>{{ .Permalink }}</id>
+        <link href="{{ .Permalink }}" rel="alternate" type="text/html" />
+        <title>{{ .Title }}</title>{{ with .Site.Params.Author }}
+        <author>
+            <name>{{.}}</name>
+        </author>{{end}}{{ $url := printf "%s" "/tags/" | absLangURL }}{{ with .Params.tags }}{{ range . }}
+        <category term="{{.}}" scheme="{{ print $url (urlize .) | absLangURL }}/" />{{end}}
+        {{end}}
+        {{ with .Content }}<content type="html">{{ `<![CDATA[` | safeHTML }}{{.}}]]></content>{{end}}
+        {{ with .Summary }}<summary type="html">{{ `<![CDATA[` | safeHTML }}{{.}}]]></summary>{{end}}
+        <published>{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</published>
+        {{ if gt .Lastmod .Date }}<updated>{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</updated>{{end}}
+    </entry>
+    {{ end }}
+</feed>

@@ -2,6 +2,7 @@
 title: "Contact"
 date: 2020-03-18T10:57:42+01:00
 layout: "contact"
+disable_feed: true
 heroimage: "/images/contact.jpg"
 herotext: "Keep in touch !"
 map: 4 rue de la folie, Rouen, France

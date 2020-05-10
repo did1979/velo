@@ -17,6 +17,19 @@ paginate = 4
   categories = "categories"
   voyages = "voyages"
 
+[mediaTypes] 
+    [mediaTypes."application/atom+xml"] 
+    suffixes = ["xml"]
+
+[outputs] 
+    home = ["HTML", "RSS", "ATOM"]
+[outputFormats.RSS] 
+    baseName = "rss"
+[outputFormats.Atom] 
+    baseName = "atom" 
+    isPlainText = false 
+    mediaType = "application/atom+xml" 
+
 [related]
     threshold = 0
     includeNewer = true
@@ -43,6 +56,12 @@ paginate = 4
     description = "Mon petit site de voyages à vélo"
     author = "Didier Dumortier"
     authorImage = "/images/didier.jpeg"
+    mainSections = ["blog"]
+
+[author]
+    webmaster = "Did"
+    email = "did.dumortier@gmail.com" 
+    name = "Didier"
 
 [[menu.main]]
   name = "A propos"
@@ -78,6 +97,11 @@ paginate = 4
     name = "Twitter"
     url = "https://twitter.com/didier.dumortier"
     pre = "<i class='fab fa-twitter'></i>"
+
+[[menu.social]]
+    name = "Rss"
+    url = "https://untivoyage.netlify.app/rss.xml"
+    pre = "<i class='fa fa-rss'></i>"
 
 [[menu.footer]]
   name = "A propos"
