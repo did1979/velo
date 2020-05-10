@@ -57,11 +57,44 @@
     </div>
   </div>
   <div class="section">
+    <div class="content">
+      <h3>Les derniers articles</h3>
+    </div>
     <div class="columns">
       {{ range  (where .Site.RegularPages "Type" "blog") | after 1 | first 3 }}
       <div class="column is-one-third">
         {{ partial "widgets/post-card-small.html" . }}
       </div>
+      {{ end }}
+    </div>
+
+    <div class="content">
+      <h3>Tous les derniers voyages</h3>
+    </div>
+    <div class="columns is-mobile is-multiline">
+      {{ range $name, $items := .Site.Taxonomies.voyages  }}
+      {{ with partial "func/GetTermPage" (dict "taxonomy" "voyages" "term" $name) }}
+      <div class="column is-half-mobile is-one-third-tablet is-one-third-desktop is-one-quarter-widescreen">
+        <div class="card">
+          <div class="card-image">
+            <a href="{{ .RelPermalink }}">
+              <figure class="image is-3by2">
+                {{ $firstChild := index $items 0 }}
+                {{ with $firstChild.Params.images }}
+                <img src="{{ index . 0 }}" alt="">
+                {{ end }}
+              </figure>
+            </a>
+          </div>
+          <div class="card-content has-text-centered">
+            <div>
+              <a class="title is-5 is-size-6-mobile" href="{{ .RelPermalink }}">{{ .Title }}</a>
+              <p> {{ len $items }} article{{ if ne (len $items) 1 }}s{{ end }} </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
       {{ end }}
     </div>
   </div>
