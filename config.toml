@@ -92,16 +92,31 @@ paginate = 4
     name = "GitHub"
     url = "https://github.com/did1979"
     pre = "<i class='fab fa-github'></i>"
+    weight = 7
+    
+[[menu.social]]
+    name = "GitHub"
+    url = "https://github.com/did1979"
+    pre = "<i class='fab fa-github'></i>"
+    weight = 7
 
 [[menu.social]]
     name = "Twitter"
     url = "https://twitter.com/didier.dumortier"
     pre = "<i class='fab fa-twitter'></i>"
+    weight = 8
 
 [[menu.social]]
     name = "Rss"
     url = "https://untivoyage.netlify.app/rss.xml"
     pre = "<i class='fa fa-rss'></i>"
+    weight = 9
+
+[[menu.social]]
+    name = "Atom/Rss"
+    url = "https://untivoyage.netlify.app/atom.xml"
+    pre = "<i class='fa fa-rss'></i>"
+    weight = 10
 
 [[menu.footer]]
   name = "A propos"

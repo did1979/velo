@@ -1,9 +1,9 @@
 {{ if .Get "column" }}
-<div class="column {{.Get "column"}}">
+<div class="column {{ .Get "column" }}">
 {{ end }}
 <!-- paragraphe -->
 <div class="content">
-    {{.Inner}}
+    {{.Inner | markdownify }}
 </div>
 <!-- paragraphe -->
   {{ if .Get "column" }}

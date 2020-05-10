@@ -12,8 +12,8 @@ categories:
 {{< gallery class="columns is-multiline content-gallery" >}}
 {{< img title="Guidon Noir" src="/images/blog/2019/03/guidon.jpg" column="is-half" link="guidon">}}
 {{< paragraph column="is-half" >}}
-<h3>C'est une belle colonne ma fois.</h3>
-Salut voici le paragraph à droite de l'image.
+# C'est une belle colonne ma fois.
+## Salut voici le paragraph à droite de l'image.
 Salut voici le paragraph à droite de l'image.
 Salut voici le paragraph à droite de l'image.
 Salut voici le paragraph à droite de l'image.
