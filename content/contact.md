@@ -6,14 +6,6 @@ disable_feed: true
 heroimage: "/images/contact.jpg"
 herotext: "Keep in touch !"
 map: 4 rue de la folie, Rouen, France
-buttons:
-- name: Téléphone
-  icon: fas fa-phone
-  href: "tel:55555555"
-- name: Formulaire de contact
-  icon: fas fa-envelope
-  id: open-modal
-form: "https://forms.office.com/Pages/ResponsePage.aspx?id=mvVhe4X4IEKgK4V51PL4v-8H4BRoO1pEsNnkzVJrZtdUMktRTDNPQTFVOEpIU0ZKVkVPME4xNElQVy4u"
 ---
 
 <div class="columns is-multiline is-mobile">
