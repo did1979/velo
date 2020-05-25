@@ -27,9 +27,22 @@ form: "https://forms.office.com/Pages/ResponsePage.aspx?id=mvVhe4X4IEKgK4V51PL4v
         <h2 class="title is-4">Address</h2>
         <p>My Company <br>Töölönlahdenkatu 4 <br>00100 Helsinki<br>Finland</p>
     </div>
+    <div class="column"><form name="contact" method="POST" netlify>
+  <p>
+    <label>Votre nom: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Votre Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Envoyer</button>
+  </p>
+</form></div>
 </div>
 
-### Our services
-- We can do this
-- We can do that
-- We can do anything
+
+
+
