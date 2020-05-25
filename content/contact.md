@@ -27,7 +27,8 @@ form: "https://forms.office.com/Pages/ResponsePage.aspx?id=mvVhe4X4IEKgK4V51PL4v
         <h2 class="title is-4">Address</h2>
         <p>My Company <br>Töölönlahdenkatu 4 <br>00100 Helsinki<br>Finland</p>
     </div>
-    <div class="column"><form name="contact" method="POST" netlify>
+    <div class="column">
+    <form name="contact" method="POST" netlify data-netlify-recaptcha="true">
   <p>
     <label>Votre nom: <input type="text" name="name" /></label>   
   </p>
@@ -37,6 +38,7 @@ form: "https://forms.office.com/Pages/ResponsePage.aspx?id=mvVhe4X4IEKgK4V51PL4v
   <p>
     <label>Message: <textarea name="message"></textarea></label>
   </p>
+  <div data-netlify-recaptcha="true"></div>
   <p>
     <button type="submit">Envoyer</button>
   </p>
