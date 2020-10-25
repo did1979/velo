@@ -1,27 +1,5 @@
 {{ define "main" }}
 
-{{/*  <section class="hero is-medium is-dark" {{ with .Params.images }}
-  style="background: url({{ index . 0 }}) center center; background-size:cover;" {{ end }}>
-  <div class="hero-body"></div>
-  <div class="hero-foot">
-    <div class="container hero-text">
-      <div class="buttons no-margin">
-        {{ range $idx, $category := .Params.categories }}
-        {{ if ne $idx 0 }}, {{ end }}<a href="{{ "categories/" | relURL }}{{ $category | urlize }}"
-          class="button is-small is-primary skew category-tag"><span class="unskew">{{ $category }}</span></a>
-        {{ end }}
-      </div>
-      <h1 class="title has-text-white is-1">
-        {{ .Title }}
-      </h1>
-      <span class="title heading subtitle is-7 has-text-white">{{ .Site.Params.Author }}
-        <time>{{ .PublishDate.Format "January 2, 2006" }}</time> |
-        {{ .ReadingTime }} {{ if eq .ReadingTime 1 }} minute {{ else }} minutes {{ end }}
-      </span>
-    </div>
-  </div>
-</section>  */}}
-
 <section class="section">
   <div class="container">
     <div class="columns is-centered">
@@ -43,7 +21,7 @@
               <div class="buttons no-margin">
               {{ range $idx, $category := .Params.categories }}
               {{ if ne $idx 0 }}, {{ end }}<a
-                href="{{ "categories/" | relURL }}{{ $category | urlize }}" class="button is-small is-primary skew category-tag"><span class="unskew">{{ $category }}</span></a>
+                href="{{ "/categories/" | relURL }}{{ $category | urlize }}" class="button is-small is-primary skew category-tag"><span class="unskew">{{ $category }}</span></a>
               {{ end }}
               </div>
             </div>
