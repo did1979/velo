@@ -54,3 +54,20 @@ text-transform: uppercase;
 .no-margin {
 margin: 0 !important;
 }
+
+
+h1.tag {   
+    border-radius: 2px;
+    height: 1.5em;
+    line-height: 1.5;
+}
+
+.pointer { cursor: pointer; border: none; } 
+
+.modal-button:hover {filter: blur(1px) brightness(90%);
+   transition: filter 300ms;}
+
+.modal-content {
+    max-height: none !important;
+    overflow: hidden;
+}

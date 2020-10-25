@@ -57,6 +57,7 @@ paginate = 4
     author = "Didier Dumortier"
     authorImage = "/images/didier.jpeg"
     mainSections = ["blog"]
+    title = "Untivoyage"
 
 [author]
     webmaster = "Did"
