@@ -1,0 +1,17 @@
+{{ $return := false }}
+
+{{ $taxonomy := "voyages" }}
+{{ with .taxonomy }}
+  {{ $taxonomy = . }}
+{{ end }}
+{{ with $term := .term }}
+  {{ with index site.Taxonomies $taxonomy }}
+    {{ with index . (urlize $term) }}
+      {{ with .Page }}
+        {{ $return = . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ return $return }}

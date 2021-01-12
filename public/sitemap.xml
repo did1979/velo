@@ -3,26 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+<<<<<<< HEAD
     <loc>http://untivoyage.netlify.com/contact/</loc>
+=======
+    <loc>http://untivoyage.netlify.app/contact/</loc>
+>>>>>>> a64f250c3ef3a41e788ceaab7003f3ba94117260
     <lastmod>2020-03-18T10:57:42+01:00</lastmod>
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>http://untivoyage.netlify.com/categories/</loc>
+=======
+    <loc>http://untivoyage.netlify.app/categories/</loc>
+>>>>>>> a64f250c3ef3a41e788ceaab7003f3ba94117260
     <lastmod>2020-03-17T17:58:01+01:00</lastmod>
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>http://untivoyage.netlify.com/</loc>
+=======
+    <loc>http://untivoyage.netlify.app/</loc>
+>>>>>>> a64f250c3ef3a41e788ceaab7003f3ba94117260
     <lastmod>2020-03-16T16:28:14+01:00</lastmod>
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>http://untivoyage.netlify.com/blog/</loc>
   </url>
   
   <url>
     <loc>http://untivoyage.netlify.com/tags/</loc>
+=======
+    <loc>http://untivoyage.netlify.app/blog/</loc>
+  </url>
+  
+  <url>
+    <loc>http://untivoyage.netlify.app/tags/</loc>
+>>>>>>> a64f250c3ef3a41e788ceaab7003f3ba94117260
   </url>
   
 </urlset>

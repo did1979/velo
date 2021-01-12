@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 baseURL = "https://untivoyage.netlify.com/"
 languageCode = "en-us"
 title = "Un Ti Voyage à Vélo"
@@ -9,6 +10,40 @@ disqusShortname = "untivoyage"
 
 paginate = 4
 
+=======
+baseURL = "https://untivoyage.netlify.app/"
+languageCode = "fr-fr"
+title = "UnTi Voyage à Vélo"
+
+theme = "bloggeri"
+DefaultContentLanguage = "fr"
+googleAnalytics = "UA-123-45"
+disqusShortname = "untivoyage"
+RemovePathAccents = true
+PreserveTaxonomyNames = false
+[permalinks]
+    blog = "/blog/:filename/"
+    
+paginate = 4
+
+[taxonomies]
+  categories = "categories"
+  voyages = "voyages"
+
+[mediaTypes] 
+    [mediaTypes."application/atom+xml"] 
+    suffixes = ["xml"]
+
+[outputs] 
+    home = ["HTML", "RSS", "ATOM"]
+[outputFormats.RSS] 
+    baseName = "rss"
+[outputFormats.Atom] 
+    baseName = "atom" 
+    isPlainText = false 
+    mediaType = "application/atom+xml" 
+
+>>>>>>> a64f250c3ef3a41e788ceaab7003f3ba94117260
 [related]
     threshold = 0
     includeNewer = true
@@ -17,6 +52,13 @@ paginate = 4
     [[related.indices]]
         name = "categories"
         weight = 100
+<<<<<<< HEAD
+=======
+    
+    [[related.indices]]
+        name = "voyages"
+        weight = 130
+>>>>>>> a64f250c3ef3a41e788ceaab7003f3ba94117260
 
     [[related.indices]]
         name = "date"
@@ -28,6 +70,7 @@ paginate = 4
       unsafe = true
 
 [params]
+<<<<<<< HEAD
     description = "My site description"
     author = "Didier Dumortier"
     authorImage = "/images/didier.jpeg"
@@ -35,28 +78,76 @@ paginate = 4
 [[menu.main]]
   name = "About"
   url = "/about"
+=======
+    description = "Mon petit site de voyages à vélo"
+    author = "Didier Dumortier"
+    authorImage = "/images/didier.jpeg"
+    mainSections = ["blog"]
+    title = "Untivoyage"
+
+[author]
+    webmaster = "Did"
+    email = "did.dumortier@gmail.com" 
+    name = "Didier"
+
+[[menu.main]]
+  name = "A propos"
+  url = "/a-propos"
+  weight = 4
+
+[[menu.main]]
+  name = "Voyages"
+  url = "/voyages"
+  weight = 3
+>>>>>>> a64f250c3ef3a41e788ceaab7003f3ba94117260
 
 [[menu.main]]
   name = "Blog"
   url = "/blog"
+<<<<<<< HEAD
 
 [[menu.main]]
     name = "Categories"
     url = "/categories"
+=======
+  weight = 1
+
+[[menu.main]]
+    name = "Catégories"
+    url = "/categories"
+    weight = 2
+>>>>>>> a64f250c3ef3a41e788ceaab7003f3ba94117260
 
 [[menu.main]]
   name = "Contact"
   url = "/contact"
+<<<<<<< HEAD
 
 [[menu.social]]
     name = "GitHub"
     url = "https://github.com/did1979"
     pre = "<i class='fab fa-github'></i>"
+=======
+  weight = 10
+
+[[menu.social]]
+    name = "CV"
+    url = "https://dumortier-cv.netlify.app"
+    pre = "<i class='fa fa-address-card'></i>"
+    weight = 6
+   
+[[menu.social]]
+    name = "GitHub"
+    url = "https://github.com/did1979"
+    pre = "<i class='fab fa-github'></i>"
+    weight = 7
+>>>>>>> a64f250c3ef3a41e788ceaab7003f3ba94117260
 
 [[menu.social]]
     name = "Twitter"
     url = "https://twitter.com/didier.dumortier"
     pre = "<i class='fab fa-twitter'></i>"
+<<<<<<< HEAD
 
 [[menu.footer]]
   name = "About"
@@ -65,6 +156,29 @@ paginate = 4
 [[menu.footer]]
   name = "Privacy"
   url = "/privacy"
+=======
+    weight = 8
+
+#[[menu.social]]
+#    name = "Rss"
+#    url = "https://untivoyage.netlify.app/rss.xml"
+#    pre = "<i class='fa fa-rss'></i>"
+#    weight = 9
+
+[[menu.social]]
+    name = "Atom/Rss"
+    url = "https://untivoyage.netlify.app/atom.xml"
+    pre = "<i class='fa fa-rss'></i>"
+    weight = 10
+
+[[menu.footer]]
+  name = "A propos"
+  url = "/a-propos"
+
+[[menu.footer]]
+  name = "Mentions légales"
+  url = "/mentions-legales"
+>>>>>>> a64f250c3ef3a41e788ceaab7003f3ba94117260
 
 [[menu.footer]]
   name = "Contact"

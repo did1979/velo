@@ -2,12 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog and content on Un Ti Voyage à Vélo</title>
+<<<<<<< HEAD
     <link>http://untivoyage.netlify.com/blog/</link>
+=======
+    <link>http://untivoyage.netlify.app/blog/</link>
+>>>>>>> a64f250c3ef3a41e788ceaab7003f3ba94117260
     <description>Recent content in Blog and content on Un Ti Voyage à Vélo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
+<<<<<<< HEAD
 	<atom:link href="http://untivoyage.netlify.com/blog/index.xml" rel="self" type="application/rss+xml" />
+=======
+	<atom:link href="http://untivoyage.netlify.app/blog/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> a64f250c3ef3a41e788ceaab7003f3ba94117260
     
     
   </channel>

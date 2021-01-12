@@ -1,0 +1,11 @@
+{{ $return := slice }}
+
+{{ $taxonomy := "voyages" }}
+{{ range .Param $taxonomy }}
+  {{ $name := . }}
+    {{ with partial "func/GetTerm" (dict "taxonomy" $taxonomy "term" $name) $taxonomy $name }}
+      {{ $tag := dict "URL" .RelPermalink "Name" .Title }}
+      {{ $return := $return | append $tag }}
+    {{ end }}
+  {{ end }}
+{{ return $return }}

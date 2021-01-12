@@ -1,0 +1,14 @@
+<footer class="footer">
+    <div class="container">
+      <div class="columns has-text-centered">
+        {{ range .Site.Menus.footer }}
+        <div class="column is-narrow">
+          <a href="{{ .URL }}" class="">{{ .Name }}</a>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </footer>
+  <script src="{{ "js/custom.js" | relURL }}"></script>
+  {{/*  <script src="https://code.jquery.com/jquery-latest.js"></script>  */}}
+  {{/*  <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>  */}}

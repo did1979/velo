@@ -2,13 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Catégories on Un Ti Voyage à Vélo</title>
+<<<<<<< HEAD
     <link>http://untivoyage.netlify.com/categories/</link>
+=======
+    <link>http://untivoyage.netlify.app/categories/</link>
+>>>>>>> a64f250c3ef3a41e788ceaab7003f3ba94117260
     <description>Recent content in Catégories on Un Ti Voyage à Vélo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Mar 2020 17:58:01 +0100</lastBuildDate>
     
+<<<<<<< HEAD
 	<atom:link href="http://untivoyage.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
+=======
+	<atom:link href="http://untivoyage.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> a64f250c3ef3a41e788ceaab7003f3ba94117260
     
     
   </channel>
