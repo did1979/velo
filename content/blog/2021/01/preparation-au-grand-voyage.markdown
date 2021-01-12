@@ -5,16 +5,16 @@ draft: false
 date: 2019-07-12 21:20:17+00:00
 slug: preparation-au-grand-voyage
 title: Aujourd’hui au diable le guide des voies vertes
-images: ["/images/blog/2021/01/douche.jpg"]
+images: ["/images/blog/2021/01/douche.jpeg"]
 voyages:
 - norvege
 ---
 
-![](/images/blog/2021/01/douche.jpg)
+![](/images/blog/2021/01/douche.jpeg)
 
 Aujourd'hui nous décidons de squizer le guide et .
 
-![](/images/blog/2021/01/douche.jpg)
+![](/images/blog/2021/01/douche.jpeg)
 
 On traverse le petit village de Locquénolé avec sa chapelle et son superbe point de vue sur la baie de Morlaix
 
