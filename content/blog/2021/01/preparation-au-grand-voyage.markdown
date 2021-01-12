@@ -10,7 +10,7 @@ voyages:
 - norvege
 ---
 
-![](/images/blog/2021/01/test.png)
+![](/images/blog/2021/01/robot.JPG)
 
 Aujourd'hui nous décidons de squizer le guide et .
 
