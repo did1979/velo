@@ -1,6 +1,6 @@
 ---
-  title: "Bretagne"
-  heroimage: "/images/blog/2021/01/douche.jpeg"
+  title: "Norvège"
+  heroimage: "/images/blog/2021/01/test.png"
   disable_feed: true
   duration: "7 jours"
 ---
