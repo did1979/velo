@@ -18,7 +18,7 @@ Aujourd'hui nous décidons de squizer le guide et .
 
 On traverse le petit village de Locquénolé avec sa chapelle et son superbe point de vue sur la baie de Morlaix
 
-![](/images/blog/2019/07/img_3613.jpg)
+![](/images/blog/2021/01/test-2.jpeg) 
 
 Puis direction Carantec pour un déjeuner spécial galette saucisse.
 
