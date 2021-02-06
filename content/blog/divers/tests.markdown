@@ -9,6 +9,7 @@ images:
 categories:
   - Montage
 ---
+bon exemple de gestion avec paragraphe.
 
 {{< gallery class="columns is-multiline content-gallery" >}}
 {{< img title="Guidon Noir" src="/images/blog/2019/03/guidon.jpg" column="is-half" link="guidon">}}
