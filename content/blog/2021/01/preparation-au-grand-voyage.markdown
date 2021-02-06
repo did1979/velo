@@ -12,11 +12,7 @@ voyages:
 
 ![](/images/blog/2021/01/robot.JPG)
 
-Aujourd'hui nous décidons de squizer le guide et .
-
-![](/images/blog/2021/01/douche.jpeg)
-
-On traverse le petit village de Locquénolé avec sa chapelle et son superbe point de vue sur la baie de Morlaix
+Aujourd'hui nous décidons de squizer le guide.
 
 ![](/images/blog/2021/01/test-2.jpeg) 
 
