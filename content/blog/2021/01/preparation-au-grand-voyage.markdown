@@ -12,5 +12,4 @@ voyages:
 
 ![](/images/blog/2021/01/Chaussures-mavic.jpeg)
 
-Aujourd'hui  petit test
->>>>>>> origin/master
+>Aujourd'hui  petit test

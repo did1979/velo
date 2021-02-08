@@ -7,5 +7,8 @@ ReadingTime: 5
 images: ["/images/blog/2019/03/specialized.jpg"]
 categories:
 - Préparatifs
+voyages:
+- norvege
 ---
 
+encorre un petit test
