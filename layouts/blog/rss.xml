@@ -5,7 +5,7 @@
     <link>{{ .Permalink }}</link>
     {{ with .Site.Params.description -}}<description>{{ . }}</description>{{- end }}
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-    <generator>Hugo {{ .Hugo.Version }}</generator>
+    <generator>Hugo {{ hugo.Version }}</generator>
     <image>
         <description>Logo</description>
         <height>128</height>

@@ -3,8 +3,9 @@
   style="background: url({{ . }}) center bottom; background-size:cover;" {{ end }}>
   <div class="hero-body">
     <div class="container max-800px">
-      <h1 class="tag skew title subtitle is-1 has-background-primary narrow-background"><span
-          class="unskew">{{ .Title | upper }}</span></h1>
+      <h1 class="tag skew title subtitle is-1 has-background-primary narrow-background">
+        <span class="unskew">{{ .Title | upper }}</span>
+      </h1>
       {{ with .Params.herotext }}
       <h2 class="skew title subtitle is-4 has-background-primary narrow-background">
         <span class="unskew">{{ . }}</span>
@@ -25,35 +26,39 @@
       </div>
       <div class="column is-one-third">
         <div class="content">
-          {{ .Content }}
+          {{ .Summary }}
         </div>
         <hr>
+        {{ range $taxonomy_name, $taxonomy := .Site.Taxonomies }}
+        {{ if (ne $taxonomy_name "categories") }}
         <aside class="menu">
-          <p class="menu-label">
-            Voyages
-          </p>
+          <p class="menu-label">{{ $taxonomy_name }}</p>
           <ul class="menu-list">
-
-            {{ range $name, $items := .Site.Taxonomies.voyages }}
-            {{ with partial "func/GetTermPage" (dict "taxonomy" "voyages" "term" $name) }}
-            <li><a href="{{ .RelPermalink }}">{{ .Title }}&nbsp;<span>({{ len $items }})</span></a></li>
-            {{ end }}
-            {{ end }}
+              {{ with ($.Site.GetPage (printf "/%s" $taxonomy_name)) }}
+              {{ range .Pages.ByWeight }}
+              <a class="list-group-item list-group-item-action text-capitalize" href="{{ .RelPermalink }}">{{ .Title }} <small class="tag">{{ .Params.year }}</small>
+                {{ $pageCount := len .Pages }}
+                <small class="tag is-primary">{{ $pageCount }}</small></a>
+              {{ end }}
+              {{ end }}
           </ul>
         </aside>
         <hr>
-        <aside class="menu">
-          <p class="menu-label">
-            Catégories
-          </p>
-          <ul class="menu-list">
-            {{ range $name, $items := .Site.Taxonomies.categories }}
-            <li><a href="{{ $.Site.BaseURL }}categories/{{ $name | urlize | lower }}">{{ $name | humanize }}
-                &nbsp;<span>({{ len $items }})</span></a></li>
+        {{ end }}
+        {{ end }}
+      <aside class="menu">
+        <p class="menu-label">Catégories</p>
+        <ul class="menu-list">
+            {{ with ($.Site.GetPage (printf "/%s" "categories")) }}
+            {{ range .Pages.ByWeight }}
+            <a class="list-group-item list-group-item-action text-capitalize" href="{{ .RelPermalink }}">{{ .Title }} 
+              {{ $pageCount := len .Pages }}
+              <small class="tag is-primary">{{ $pageCount }}</small></a>
             {{ end }}
-          </ul>
-        </aside>
-      </div>
+            {{ end }}
+        </ul>
+      </aside>
+      <hr>
     </div>
   </div>
   <div class="section">
@@ -61,7 +66,7 @@
       <h3>Les derniers articles</h3>
     </div>
     <div class="columns">
-      {{ range  (where .Site.RegularPages "Type" "blog") | after 1 | first 3 }}
+      {{ range (where .Site.RegularPages "Type" "blog") | after 1 | first 3 }}
       <div class="column is-one-third">
         {{ partial "widgets/post-card-small.html" . }}
       </div>
@@ -72,7 +77,8 @@
       <h3>Tous les voyages</h3>
     </div>
     <div class="columns is-mobile is-multiline">
-      {{ range $name, $items := .Site.Taxonomies.voyages  }}
+
+      {{ range $name, $items := .Site.Taxonomies.voyages }}
       {{ with partial "func/GetTermPage" (dict "taxonomy" "voyages" "term" $name) }}
       <div class="column is-half-mobile is-one-third-tablet is-one-third-desktop is-one-quarter-widescreen">
         <div class="card">
@@ -88,8 +94,10 @@
           </div>
           <div class="card-content has-text-centered">
             <div>
-              <a class="title is-5 is-size-6-mobile" href="{{ .RelPermalink }}">{{ .Title }}</a>
+              <a class="title is-5 is-size-6-mobile" href="{{ .RelPermalink }}"> {{ .Title }}</a>
+
               <p> {{ len $items }} article{{ if ne (len $items) 1 }}s{{ end }} </p>
+              <small class="tag">{{ .Params.year }}</small>
             </div>
           </div>
         </div>
