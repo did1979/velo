@@ -1,6 +1,6 @@
 ---
   title: "Slovénie"
-  heroimage: "/images/blog/2018/07/img_2199.jpg"
+  heroimage: "/images/blog/2018/07/img_2253.jpg"
   disable_feed: true
   duration: "14 jours"
   weight: 99

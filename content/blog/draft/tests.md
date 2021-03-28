@@ -1,8 +1,9 @@
 ---
-title: Guidon
+title: Tests Démo
 date: 2020-03-18T12:43:08.000Z
-draft: false
-description: Un beau guidon de course !
+draft: true
+description: La démo du site !
+summary: Ce post est le poste de démo pour voir un peu la disposition des colonnes, afficher une gallerie d'images...
 ReadingTime: 5
 images:
   - /images/blog/2019/03/guidon.jpg
