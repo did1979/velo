@@ -7,6 +7,7 @@ images: ["/images/blog/2018/07/img_2033.jpg"]
 slug: cest-parti-pour-letape-du-maillot-a-pois
 title: C’est parti pour l’étape du maillot à pois
 wordpress_id: 97
+summary: Le lac de Bohinj est super beau, au cœur de la montagne. On s’est organisé un Petit pique-nique au bord de l’eau la veille au soir.
 voyages:
 - slovenie
 ---

@@ -9,7 +9,8 @@ images: ["/images/blog/2019/07/img_3517.jpg"]
 wordpress_id: 335
 voyages:
 - Bretagne
-voyages_weight: 18
+progress: 1
+total: 7
 ---
 
 ![](/images/blog/2019/07/img_3517.jpg)

@@ -22,6 +22,11 @@
               {{ if .Params.draft }}
               <p><span class="has-text-warning">DRAFT {{ .WordCount }} WORDS</span></p>
               {{ end }}
+              {{ if .Params.progress }}
+              <progress class="progress is-info" value="{{ .Params.progress }}" max="{{ .Params.total }}">
+                {{ .Params.progress }}
+            </progress>
+            {{ end }}
             </div>
             <div class="Column">
               <div class="buttons no-margin">
