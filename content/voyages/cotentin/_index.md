@@ -1,6 +1,6 @@
 ---
   title: "Le Cotentin"
-  heroimage: "/images/8.jpg"
+  heroimage: "/images/16.JPEG"
   disable_feed: true
   duration: "5 jours"
   weight: 96
