@@ -7,7 +7,7 @@ summary: "Dent graniferumque, autpriori ulti. Voilà voila"
 ReadingTime: 5
 images: ["/images/blog/2019/03/specialized.jpg"]
 voyages:
-- Tour de France des copains
+- Tour de France
 ---
 # Non sacrorum inmensum iuvenis vivaque dolendi
 
