@@ -1,13 +1,13 @@
 ---
 title: "Cambriolage"
-date: 2021-03-27T19:22:17+01:00
+date: 2021-03-27
 draft: false
 description: 
 summary: "Dent graniferumque, autpriori ulti. Voilà voila"
 ReadingTime: 5
 images: ["/images/blog/2019/03/specialized.jpg"]
 voyages:
-- Tour de France
+- Tour de France des copains
 ---
 # Non sacrorum inmensum iuvenis vivaque dolendi
 

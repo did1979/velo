@@ -7,9 +7,9 @@ summary: "La date approche, j-10 avant le grand départ"
 ReadingTime: 5
 images: ["/images/blog/2021/06/preparatifs-1.jpeg"]
 voyages:
-  - Tour de France des copains
+- Tour de France des copains
 categories:
-  - Préparatifs
+- Préparatifs
 ---
 # Les préparatifs 
 
