@@ -12,4 +12,7 @@ voyages:
 - Cotentin
 ---
 
+# Départ de caen en train direction Carentan
+Merci Séb et Aurélie pour le petit weekend caennais. le demarrage de fait sur la voir verte juste auxpieds de la maison  et au bout dune petite vingtaine de minutes, me coila deja a la gare de Caen, sans effort sous un superbe soleil.
+
 
