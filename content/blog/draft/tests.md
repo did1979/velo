@@ -9,6 +9,8 @@ images:
   - /images/blog/2019/03/guidon.jpg
 categories:
   - Montage
+voyages:
+  - Tour de France
 ---
 # bon exemple de gestion avec paragraphe.
 <div class="columns is-multiline" >
