@@ -15,7 +15,7 @@ categories:
 
 Après de longs mois de préparation, le départ est proche. Finalement cette année ce ne sera pas les pays scandinaves, mais un tour de France des copains. L'itinéraire est prêt et je vais faire une traversée de la France d'ouest en est puisque je rejoins d'abord le Finistère, puis la route de la Loire pour terminer 6 semaines plus tard par la route des vins en Alsace.
 
-![Inventaire](/images/blog/2021//06/preparatifs-1.jpeg "Les preparatifs")
+![Inventaire](/images/blog/2021/06/preparatifs-1.jpeg "Les preparatifs")
 
 ## Inventaire
 - réchaud MSR et bouteille de gaz
@@ -33,7 +33,7 @@ Après de longs mois de préparation, le départ est proche. Finalement cette an
 - 2 tenues de vélo et 2 tenues normales
 - une tenue pour la pluie
 
-![Inventaire](/images/blog/2021//06/preparatifs-2.jpeg "Les preparatifs")
+![Inventaire](/images/blog/2021/06/preparatifs-2.jpeg "Les preparatifs")
 
 ## Loisirs
 - un ipad avec un clavier externe pour faire le blog et lire des bouquins
