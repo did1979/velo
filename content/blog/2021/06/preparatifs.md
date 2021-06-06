@@ -43,23 +43,23 @@ Après de longs mois de préparation, le départ est proche. Finalement cette an
 - le vélo VSF Fahrrad Manufaktur TX-400
 
 ## Itinéraire
-Rouen - Caen
-Caen - Pont d’Ouilly
-Pont d’Ouilly - Mont Saint-Michel
-Mont Saint-Michel - Rennes
-Rennes - Morlaix (en train)
-Morlaix - Roscoff
-Roscoff - Goulven
-Goulven  - Landeda
-Landeda - Lampal Plouarzel - Brest
-Brest - Douarnenez
-Douzarnenez - Quimper - Lorient - Quiberon
-Quiberon - Belle Île en Mer
-Belle Île en Mer - Quimiac
-Quimiac - Nantes
-Nantes - Tours - Orléans - Metz
-Metz - Hagueau
-La route des vins d'Alsace
+- Rouen - Caen
+- Caen - Pont d’Ouilly
+- Pont d’Ouilly - Mont Saint-Michel
+- Mont Saint-Michel - Rennes
+- Rennes - Morlaix (en train)
+- Morlaix - Roscoff
+- Roscoff - Goulven
+- Goulven  - Landeda
+- Landeda - Lampal Plouarzel - Brest
+- Brest - Douarnenez
+- Douzarnenez - Quimper - Lorient - Quiberon
+- Quiberon - Belle Île en Mer
+- Belle Île en Mer - Quimiac
+- Quimiac - Nantes
+- Nantes - Tours - Orléans - Metz
+- Metz - Hagueau
+- La route des vins d'Alsace
   
 ## Outils en ligne
 - Garmin Connect
