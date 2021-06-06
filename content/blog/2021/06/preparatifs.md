@@ -4,8 +4,10 @@ date: 2021-06-06
 draft: false
 description: 
 summary: "La date approche, j-7 avant le grand départ"
-ReadingTime: 5
+# ReadingTime: 5
 images: ["/images/blog/2021/06/preparatifs-1.jpeg"]
+progress: 0
+total: 42
 voyages:
 - Tour de France
 categories:

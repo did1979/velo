@@ -1,21 +1,20 @@
 {{ define "main" }}
-<div class="hero is-dark is-fullheight-with-navbar" {{ with .Params.heroimage }}
+<div class="hero is-medium is-dark is-fullheight-with-navbar" {{ with .Params.heroimage }}
   style="background: url({{ . }}) center bottom; background-size:cover;" {{ end }}>
-  <div class="hero-body">
-    <div class="container max-800px">
-      <h1 class="tag skew title subtitle is-1 has-background-primary narrow-background">
+  <div class="hero-body has-text-centered">
+      <span class="is-size-6-mobile title-logo">
+      <h1 class="tag skew title subtitle is-1 is-size-3-mobile has-background-primary narrow-background">
         <span class="unskew">{{ .Title | upper }}</span>
       </h1>
       {{ with .Params.herotext }}
-      <h2 class="skew title subtitle is-4 has-background-primary narrow-background">
+      <h2 class="skew title subtitle is-4 is-size-6-mobile has-background-primary narrow-background">
         <span class="unskew">{{ . }}</span>
       </h2>
       {{ end }}
-    </div>
+    </span>
   </div>
 </div>
 
-<div class="container max-800px">
   <div class="section">
     <div class="columns is-multiline">
       <div class="column is-two-third">
@@ -28,84 +27,105 @@
         <div class="content">
           {{ .Summary }}
         </div>
-        <hr>
+        <div class="box has-text-centered">
+            <a class="button is-link" href="https://untivoyage.netlify.app/atom.xml">
+              <i class="fas fa-rss"></i>&nbsp;S'abonner
+            </a>
+          </div>
+          <div class="box">
+        <nav class="level">
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Kms</p>
+              <p class="title">{{ .Params.km }}</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Pays</p>
+              <p class="title primary">{{ .Params.pays }}</p>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="box">
         {{ range $taxonomy_name, $taxonomy := .Site.Taxonomies }}
         {{ if (ne $taxonomy_name "categories") }}
         <aside class="menu">
           <p class="menu-label">{{ $taxonomy_name }}</p>
           <ul class="menu-list">
-              {{ with ($.Site.GetPage (printf "/%s" $taxonomy_name)) }}
-              {{ range .Pages.ByWeight }}
-              <a class="list-group-item list-group-item-action text-capitalize" href="{{ .RelPermalink }}">{{ .Title }} <small class="tag">{{ .Params.year }}</small>
-                {{ $pageCount := len .Pages }}
-                <small class="tag is-primary">{{ $pageCount }}</small></a>
-              {{ end }}
-              {{ end }}
-          </ul>
-        </aside>
-        <hr>
-        {{ end }}
-        {{ end }}
-      <aside class="menu">
-        <p class="menu-label">Catégories</p>
-        <ul class="menu-list">
-            {{ with ($.Site.GetPage (printf "/%s" "categories")) }}
+            {{ with ($.Site.GetPage (printf "/%s" $taxonomy_name)) }}
             {{ range .Pages.ByWeight }}
-            <a class="list-group-item list-group-item-action text-capitalize" href="{{ .RelPermalink }}">{{ .Title }} 
+            <a class="list-group-item list-group-item-action text-capitalize" href="{{ .RelPermalink }}">{{ .Title }}
+              <small class="tag">{{ .Params.year }}</small>
               {{ $pageCount := len .Pages }}
               <small class="tag is-primary">{{ $pageCount }}</small></a>
             {{ end }}
             {{ end }}
-        </ul>
-      </aside>
-      <hr>
-    </div>
-  </div>
-  <div class="section">
-    <div class="content">
-      <h3>Les derniers articles</h3>
-    </div>
-    <div class="columns">
-      {{ range (where .Site.RegularPages "Type" "blog") | after 1 | first 3 }}
-      <div class="column is-one-third">
-        {{ partial "widgets/post-card-small.html" . }}
+          </ul>
+        </aside>
+        {{ end }}
+        {{ end }}
       </div>
-      {{ end }}
+        {{/* <aside class="menu">
+          <p class="menu-label">Catégories</p>
+          <ul class="menu-list">
+            {{ with ($.Site.GetPage (printf "/%s" "categories")) }}
+            {{ range .Pages.ByWeight }}
+            <a class="list-group-item list-group-item-action text-capitalize" href="{{ .RelPermalink }}">{{ .Title }}
+              {{ $pageCount := len .Pages }}
+              <small class="tag is-primary">{{ $pageCount }}</small></a>
+            {{ end }}
+            {{ end }}
+          </ul>
+        </aside> */}}
+      </div>
     </div>
+    <div class="section">
+      <div class="content">
+        <h3>Les derniers articles</h3>
+      </div>
+      <div class="columns">
+        {{ range (where .Site.RegularPages "Type" "blog") | after 1 | first 3 }}
+        <div class="column is-one-third">
+          {{ partial "widgets/post-card-small.html" . }}
+        </div>
+        {{ end }}
+      </div>
 
-    <div class="content">
-      <h3>Tous les voyages</h3>
-    </div>
-    <div class="columns is-mobile is-multiline">
+      <div class="content">
+        <h3>Tous les voyages</h3>
+      </div>
+      <div class="columns is-mobile is-multiline">
 
-      {{ range $name, $items := .Site.Taxonomies.voyages }}
-      {{ with partial "func/GetTermPage" (dict "taxonomy" "voyages" "term" $name) }}
-      <div class="column is-half-mobile is-one-third-tablet is-one-third-desktop is-one-quarter-widescreen">
-        <div class="card">
-          <div class="card-image">
-            <a href="{{ .RelPermalink }}">
-              <figure class="image is-3by2">
-                {{ $firstChild := index $items 0 }}
-                {{ with $firstChild.Params.images }}
-                <img src="{{ index . 0 }}" alt="">
-                {{ end }}
-              </figure>
-            </a>
-          </div>
-          <div class="card-content has-text-centered">
-            <div>
-              <a class="title is-5 is-size-6-mobile" href="{{ .RelPermalink }}"> {{ .Title }}</a>
+        {{ range $name, $items := .Site.Taxonomies.voyages }}
+        {{ with partial "func/GetTermPage" (dict "taxonomy" "voyages" "term" $name) }}
+        <div class="column is-half-mobile is-one-third-tablet is-one-third-desktop is-one-quarter-widescreen">
+          <div class="card">
+            <div class="card-image">
+              <a href="{{ .RelPermalink }}">
+                <figure class="image is-3by2">
+                  {{ $firstChild := index $items 0 }}
+                  {{ with $firstChild.Params.images }}
+                  <img src="{{ index . 0 }}" alt="">
+                  {{ end }}
+                </figure>
+              </a>
+            </div>
+            <div class="card-content has-text-centered">
+              <div>
+                <a class="title is-5 is-size-6-mobile" href="{{ .RelPermalink }}"> {{ .Title }}</a>
 
-              <p> {{ len $items }} article{{ if ne (len $items) 1 }}s{{ end }} </p>
-              <small class="tag">{{ .Params.year }}</small>
+                <p> {{ len $items }} article{{ if ne (len $items) 1 }}s{{ end }} </p>
+                <small class="tag">{{ .Params.year }}</small>
+              </div>
             </div>
           </div>
         </div>
+        {{ end }}
+        {{ end }}
       </div>
-      {{ end }}
-      {{ end }}
     </div>
-  </div>
-</div>
 
-{{ end }}
+
+  {{ end }}
