@@ -13,7 +13,7 @@ categories:
 ---
 # Les préparatifs 
 
-Après de longs mois de préparation, le départ est proche. Finalement cette année ce ne sera pas les pays scandnaves, mais un tour de France des copains. L'itinéraire est prêt et je vais tout de même faire une traversée de la France d'ouest en est puisque je vais passer par le Finistère et terminer 6 semaines plus tard par la route des vins en Alsace.
+Après de longs mois de préparation, le départ est proche. Finalement cette année ce ne sera pas les pays scandinaves, mais un tour de France des copains. L'itinéraire est prêt et je vais faire une traversée de la France d'ouest en est puisque je rejoins d'abord le Finistère, puis la route de la Loire pour terminer 6 semaines plus tard par la route des vins en Alsace.
 
 ![Inventaire](/images/blog/2021//06/preparatifs-1.jpeg "Les preparatifs")
 
