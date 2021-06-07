@@ -1,6 +1,6 @@
 ---
   title: "Le Cotentin"
-  heroimage: "/images/16.JPEG"
+  heroimage: "/images/cotentin-panoramique.jpeg"
   disable_feed: true
   duration: "5 jours"
   weight: 96
