@@ -1,0 +1,49 @@
+{{ $original := .Page.Resources.GetMatch (printf "*%s*" (.Get "name")) }}
+{{ $command := .Get "command" }}
+{{ $options := .Get "size" }}
+{{ if eq $command "Fit"}}
+{{ .Scratch.Set "image" ($original.Fit $options) }}
+{{ else if eq $command "Resize"}}
+{{ .Scratch.Set "image" ($original.Resize $options) }}
+{{ else if eq $command "Fill"}}
+{{ .Scratch.Set "image" ($original.Fill $options) }}
+{{ else }}
+{{ errorf "Invalid image processing command: Must be one of Fit, Fill or Resize."}}
+{{ end }}
+{{ $image := .Scratch.Get "image" }}
+
+
+{{ if .Get "column" }}
+<div class="column {{ with .Get "column" }}{{.}}{{ end }}">
+  {{ end }}
+
+  <img style="max-width: 100%; width: auto; height: auto;" {{ with .Get "link"}} class="modal-button pointer" onclick="toggleModal('{{.}}')" data-target="{{.}}" {{ end }} src="{{ $image.Permalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}"
+    {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"
+    {{ end }} />
+  {{ if .Get "column" }}
+</div>
+{{ end }}
+
+<div {{ with .Get "link"}} id="{{.}}" {{ end }} 
+  class="modal modal-fx-fadeInScale">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+      <p class="image">
+        <figure {{ with .Get "class" }}class="{{.}}"{{ end }}>          
+              <img src="{{ $original.Permalink }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }} />              
+          {{ if or (or (.Get "title") (.Get "caption")) (.Get "attr")}}
+          <figcaption>{{ if isset .Params "title" }}
+              <h4 class="has-text-white">{{ .Get "title" }}</h4>{{ end }}
+              {{ if or (.Get "caption") (.Get "attr")}}<p>
+              {{ .Get "caption" }}
+              {{ with .Get "attrlink"}}<a href="{{.}}"> {{ end }}
+                  {{ .Get "attr" }}
+              {{ if .Get "attrlink"}}</a> {{ end }}
+              </p> {{ end }}
+          </figcaption>
+          {{ end }}
+      </figure>
+        </p>
+    </div>
+    <button class="modal-close is-large" aria-label="close" {{ with .Get "link" }} onclick="toggleModal('{{.}}')" {{ end }}></button>
+  </div>

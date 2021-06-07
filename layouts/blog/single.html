@@ -49,11 +49,18 @@
             </div>
           </div>
         </div>
-        {{ $url := .Site.BaseURL }}
+        {{ with .Resources.ByType "image" }}
+        <figure class='title-image'>
+          {{ $resource := index . 0 }}
+          {{ $img := $resource.Resize "1200x jpg" }}
+          <img src="{{ $img.Permalink }}" alt="" >
+        </figure>
+        {{ end }}
+
         {{ with .Params.images }}
         <figure class='title-image'>
           {{ $img := index . 0 }}
-          <img src="{{ substr $url 0 -1}}{{ $img }}" alt="" >
+          <img src="{{ $img }}" alt="" >
         </figure>
         {{ end }}
         <div class="content">
