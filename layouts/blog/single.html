@@ -75,7 +75,7 @@
 <section class="section">
   <div class="container">
     <div class="columns is-centered">
-      <div class="column max-800px">
+      <div class="column is-half max-800px">
         <div class="columns is-mobile">
           <div class="column has-text-left">
             {{ with .PrevInSection }}
@@ -111,9 +111,8 @@
     </div>
   </div>
 </section>
-{{ partial "subscribe.html" . }}
 <section class="section">
   {{ template "_internal/disqus.html" . }}
 </section>
-
+{{ partial "subscribe.html" . }}
 {{ end }}
