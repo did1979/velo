@@ -107,6 +107,14 @@
                 {{ with $firstChild.Params.images }}
                 <img src="{{ index . 0 }}" alt="">
                 {{ end }}
+
+                {{ with $firstChild.Params.images }}
+                <img src="{{ index . 0 }}" alt="">
+                {{ end }}
+                {{ with $firstChild.Resources.GetMatch "entete" }}
+                  {{ $img := .Resize "243x jpg" }}
+                  <img src="{{ $img.Permalink }}" alt="" >
+                {{ end }}
               </figure>
             </a>
           </div>
