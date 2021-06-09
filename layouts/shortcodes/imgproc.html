@@ -23,9 +23,9 @@
   {{ if .Get "column" }}
 </div>
 {{ end }}
-
+<div class="display--none">
 <div {{ with .Get "link"}} id="{{.}}" {{ end }} 
-  class="modal modal-fx-fadeInScale">
+  class="display--none modal modal-fx-fadeInScale">
     <div class="modal-background"></div>
     <div class="modal-content">
       <p class="image">
@@ -47,3 +47,4 @@
     </div>
     <button class="modal-close is-large" aria-label="close" {{ with .Get "link" }} onclick="toggleModal('{{.}}')" {{ end }}></button>
   </div>
+</div>

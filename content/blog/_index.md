@@ -2,7 +2,7 @@
 title: "Suivez le blog"
 disable_feed: true
 cascade:
-  banner: velo-cotentin.jpg
+  banner:  /images/blog/velo-cotentin.jpg
 title: Blog
 ---
 ## Salut et bienvenue sur le *blog du vélo* !!!

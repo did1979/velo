@@ -5,6 +5,12 @@
       {{ with .Params.images }}
       <a href="{{ $permalink }}"><img src="{{ index . 0 }}" alt=""></a>
       {{ end }}
+
+      {{ with .Resources.GetMatch "entete" }}
+      {{ $img := .Resize "243x jpg" }}
+        <a href="{{ $permalink }}"><img src="{{ $img.Permalink }}" alt="" ></a>
+      {{ end }}
+
     </figure>
   </div>
   <div class="card-content">
