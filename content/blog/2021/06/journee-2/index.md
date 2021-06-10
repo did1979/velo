@@ -1,7 +1,7 @@
 ---
 title: "Journee 2"
 date: 2021-06-09T07:21:14+02:00
-draft: false
+draft: true
 description: ""
 summary: ""
 ReadingTime: 5
