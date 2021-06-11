@@ -23,7 +23,7 @@
         {{ with $.Site.Author.email }}<email>{{.}}</email>{{end}}
         <uri>{{ $.Permalink }}</uri>
     </author>{{end}}
-    <generator uri="https://gohugo.io" version="{{ .Hugo.Version }}">Hugo</generator>
+    <generator uri="https://gohugo.io" version="{{ hugo.Version }}">Hugo</generator>
     {{- $limit := (cond (le .Site.Config.Services.RSS.Limit 0) 65536 .Site.Config.Services.RSS.Limit) -}}
     {{- $pages := where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.disable_feed" "!=" true -}}
     {{- if ge $limit 1 -}}{{- $pages = $pages | first $limit -}}{{- end -}}

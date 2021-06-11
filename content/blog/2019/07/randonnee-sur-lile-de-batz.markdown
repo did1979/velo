@@ -6,6 +6,7 @@ slug: randonnee-sur-lile-de-batz
 title: Randonnée sur l’île de Batz
 wordpress_id: 407
 description: "This is a short description of the page"
+summary: "Samedi 13 juillet avant dernier jour. Aujourd'hui on décide de faire de la rando sur l'île au large de Roscoff histoire de faire un break avec nos montures."
 draft: false
 ReadingTime: 5
 images: ["/images/blog/2019/07/img_3631.jpg"]

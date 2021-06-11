@@ -3,14 +3,19 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
 description: ""
+summary: ""
 ReadingTime: 5
-images: ["/images/blog/2019/03/specialized.jpg"]
+# images: ["/images/blog/2019/03/specialized.jpg"]
+progress: 1
+total: 44
+resources:
+- src: 'images/entete.jpg'
+  title: "entete"
+  name: entete
+- src: 'images/*.jpg'
 categories:
-<<<<<<< HEAD
-=======
 - Montage
 voyages:
-- Le Havre
->>>>>>> a64f250c3ef3a41e788ceaab7003f3ba94117260
+- Tour de France
 ---
 

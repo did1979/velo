@@ -4,26 +4,33 @@
   <div class="container">
     <div class="columns is-centered">
       <div class="column max-800px">
-        <h1 class="title is-1">{{ .Title }}</h1>
+        <h1 class="title is-1 is-size-3-mobile">{{ .Title }}</h1>
         <div class="title subtitle heading is-6">
-          <div class="columns is-vcentered is-mobile">
+          <div class="columns is-multiline is-vcentered is-mobile">
             {{ with .Site.Params.authorImage }}
             <div class="column is-narrow">
               <img src="{{ . }}" class="author-image">
             </div>
             {{ end }}
-            <div class="column">
+            <div class="column is-narrow">
               <p>{{ .Site.Params.Author }}</p>
               <p><time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
                   {{ .PublishDate.Day }} {{ index $.Site.Data.mois (printf "%d" .PublishDate.Month) }}
                   {{ .PublishDate.Year }}
-                </time> |
-                {{ .ReadingTime }} {{ if eq .ReadingTime 1 }} minute {{ else }} minutes {{ end }}</p>
+                </time>{{ if .Params.ReadingTime }}
+                | {{ .Params.ReadingTime }} {{ if eq .Params.ReadingTime 1 }} minute {{ else }} minutes {{ end }}
+                {{ end }}
+              </p>
               {{ if .Params.draft }}
               <p><span class="has-text-warning">DRAFT {{ .WordCount }} WORDS</span></p>
               {{ end }}
+              {{ if .Params.progress }}
+              <progress class="progress is-info" value="{{ .Params.progress }}" max="{{ .Params.total }}">
+                {{ .Params.progress }}
+            </progress>
+            {{ end }}
             </div>
-            <div class="Column">
+            <div class="column is-narrow">
               <div class="buttons no-margin">
                 {{ range $idx, $category := .Params.categories }}
                 {{ with partial "func/GetTermPage" (dict "taxonomy" "categories" "term" $category) }}
@@ -42,9 +49,19 @@
             </div>
           </div>
         </div>
+        {{ with .Resources.ByType "image" }}
+        <figure class='title-image'>
+          {{ $resource := index . 0 }}
+          {{ $img := $resource.Resize "1200x jpg" }}
+          <img src="{{ $img.Permalink }}" alt="" >
+        </figure>
+        {{ end }}
+        
+
         {{ with .Params.images }}
         <figure class='title-image'>
-          <img src="{{index . 0 }}" alt="">
+          {{ $img := index . 0 }}
+          <img src="{{ $img }}" alt="" >
         </figure>
         {{ end }}
         <div class="content">
@@ -58,7 +75,7 @@
 <section class="section">
   <div class="container">
     <div class="columns is-centered">
-      <div class="column max-800px">
+      <div class="column is-half max-800px">
         <div class="columns is-mobile">
           <div class="column has-text-left">
             {{ with .PrevInSection }}
@@ -97,5 +114,5 @@
 <section class="section">
   {{ template "_internal/disqus.html" . }}
 </section>
-
+{{ partial "subscribe.html" . }}
 {{ end }}

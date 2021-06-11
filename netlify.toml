@@ -44,3 +44,6 @@ HUGO_VERSION = "0.65.0"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[plugins]]
+package = "netlify-plugin-image-optim"

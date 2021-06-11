@@ -18,14 +18,16 @@
     </div>
   </div>
 </div>
-
 <div class="container">
   <div class="section">
     <div class="content">
       {{ .Content }}
     </div>
+
+
     <div class="columns is-mobile is-multiline">
-      {{ range .Data.Terms.ByCount }}
+      {{ with ($.Site.GetPage (printf "/%s" "voyages")) }}
+      {{ range .Pages.ByWeight }}
       <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen">
         <div class="card">
           <div class="card-image">
@@ -35,12 +37,21 @@
                 {{ with $firstChild.Params.images }}
                 <img src="{{ index . 0 }}" alt="">
                 {{ end }}
+
+                {{ with $firstChild.Resources.GetMatch "entete" }}
+                {{ $img := .Resize "202x jpg" }}
+                
+                <img src="{{ $img.Permalink }}" alt="" >
+                {{ end }}
+
               </figure>
             </a>
           </div>
           <div class="card-content has-text-centered">
             <div>
               <a class="title is-5 is-size-6-mobile" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+              <p><small class="tag">{{ .Page.Params.year }}</small><small class="tag is-primary">
+                {{ .Page.Params.duration }}</small></p>
               {{ $pageCount := len .Pages }}
               <p>{{ $pageCount }} article{{ if ne $pageCount 1 }}s{{ end }} </p>
             </div>
@@ -48,7 +59,9 @@
         </div>
       </div>
       {{ end }}
+      {{ end }}
     </div>
   </div>
 </div>
+{{ partial "subscribe.html" . }}
 {{ end }}

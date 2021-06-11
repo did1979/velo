@@ -3,6 +3,7 @@ title: "Barbecue Sur La Plage Du Havre"
 date: 2019-07-20T19:00:40+02:00
 draft: false
 description: ""
+summary: "Autant la soirée s'est très bien passé. Après notre petit apéro-concert, nous avons trouvé une pizzeria qui allait fermer. Le patron nous apréparé 3 pizzas énormes, des bière et nous a laissé sa terrasse en nous demandant juste de ranger en partant."
 ReadingTime: 5
 images: ["/images/blog/2019/07/img_3692.jpg"]
 voyages:

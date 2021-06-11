@@ -17,7 +17,6 @@
     </div>
   </div>
 </div>
-
 <div class="container">
   <div class="section">
     <div class="content">
@@ -25,7 +24,7 @@
     </div>
     <div class="columns is-multiline">
       {{ range .Paginator.Pages }}
-      <div class="column is-half">
+      <div class="column is-one-third">
         {{ partial "widgets/post-card.html" . }}
       </div>
       {{ end }}
@@ -37,4 +36,5 @@
     </div>
   </div>
 </div>
+{{ partial "subscribe.html" . }}
 {{ end }}

@@ -3,6 +3,7 @@ title: "Week End Au Havre"
 date: 2019-07-19T18:10:02+02:00
 draft: false
 description: "Petite virée au Havre, au départ de Rouen"
+summary: "Mi-juillet, la team Slovénie 2018 se retrouve le temps d'un week-end pour une petite virée au Havre. Dépar le vendredi après midi. La route est tranquille et les boucles de la Seine s'enchainent. Nous profitons des traversées avec le bac pour faire des petites pauses."
 ReadingTime: 5
 images: ["/images/blog/2019/07/img_3689.jpg"]
 voyages:

@@ -7,6 +7,7 @@ images: ["/images/blog/2018/07/img_2011.jpg"]
 slug: aujourdhui-on-fait-une-descente-svp
 title: Aujourd’hui on fait une descente SVP ?
 wordpress_id: 88
+summary: On est champion. Pour ma part j'ai bien dormi et apparemment les 3 autres lascars ont cru pendant quelques secondes qu'un ours était dans le coin. Jusqu'à se rendre enfin compte que c'était moi qui ronflait à gorge déployée.
 voyages:
 - slovenie
 ---

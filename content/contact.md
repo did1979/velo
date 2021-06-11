@@ -2,37 +2,34 @@
 title: "Contact"
 date: 2020-03-18T10:57:42+01:00
 layout: "contact"
-<<<<<<< HEAD
-heroimage: "/images/contact.jpg"
-herotext: "Keep in touch !"
-map: 4 rue de la folie, Rouen, France
-buttons:
-- name: Téléphone
-  icon: fas fa-phone
-  href: "tel:55555555"
-- name: Formulaire de contact
-  icon: fas fa-envelope
-  id: open-modal
-form: "https://forms.office.com/Pages/ResponsePage.aspx?id=mvVhe4X4IEKgK4V51PL4v-8H4BRoO1pEsNnkzVJrZtdUMktRTDNPQTFVOEpIU0ZKVkVPME4xNElQVy4u"
-=======
 disable_feed: true
 heroimage: "/images/contact.jpg"
 herotext: "Keep in touch !"
 map: 4 rue de la folie, Rouen, France
->>>>>>> a64f250c3ef3a41e788ceaab7003f3ba94117260
 ---
 
 <div class="columns is-multiline is-mobile">
     <div class="column">
-        <h2 class="title is-4">Opening hours</h2>
-        <p>Mon-Fri: 10:00-20:00<br>
-        Sat: 10:00-18:00<br>
-        Sun: closed</p>
+    <form name="contact" method="POST" netlify data-netlify-recaptcha="true">
+    <div class="field">
+      <div class="control mb-3 has-icons-left">
+        <span class="icon is-small is-left"><i class="fas fa-user"></i></span>
+        <input class="required input" type="text" placeholder="Nom" name="NAME" id="mce-name">
+      </div>
+      <div class="control mb-3 has-icons-left">
+        <span class="icon is-small is-left"><i class="fas fa-envelope"></i></span>
+        <input class="required email input" type="email" placeholder="Email" name="EMAIL" id="mce-EMAIL">
+      </div>
+      <div class="control mb-3">
+        <textarea class="textarea" placeholder="Votre message pour me contacter"></textarea>
+      </div>
+      <div data-netlify-recaptcha="true"></div>
+      <div class="control mb-3">
+    <input type="submit" value="Envoyer" name="envoyer" id="mc-embedded-subscribe"
+                                class="button is-danger">
     </div>
-    <div class="column">
-        <h2 class="title is-4">Address</h2>
-        <p>My Company <br>Töölönlahdenkatu 4 <br>00100 Helsinki<br>Finland</p>
     </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 </div>
 
@@ -44,7 +41,7 @@ map: 4 rue de la folie, Rouen, France
     <div class="column">
     <form name="contact" method="POST" netlify data-netlify-recaptcha="true">
   <p>
-    <label>Votre nom: <input type="text" name="name" /></label>   
+    <label>Votre nom: <input type="text" name="name" /></label>
   </p>
   <p>
     <label>Votre Email: <input type="email" name="email" /></label>
@@ -57,6 +54,10 @@ map: 4 rue de la folie, Rouen, France
     <button type="submit">Envoyer</button>
   </p>
 </form></div>
+=======
+    </form>
+    </div>
+>>>>>>> 725052e8ee4289f350178d32aca351a3bbf3af02
 </div>
 
 
