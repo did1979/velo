@@ -20,8 +20,8 @@
 
   <img style="max-width: 100%; width: auto; height: auto;" {{ with .Get "link" }} class="modal-button pointer"
     onclick="toggleModal('{{.}}')" data-target="{{.}}" {{ end }} src="{{ $image.Permalink }}" width="{{ $image.Width }}"
-    height="{{ $image.Height }}" {{ if or (.Get "alt" ) (.Get "caption" ) }}alt="{{ with .Get " alt"}}{{.}}{{else}}{{
-    .Get "caption" }}{{ end }}" {{ end }} />
+    height="{{ $image.Height }}" {{ if or (.Get "alt" ) (.Get "caption" ) }}alt="{{ with .Get " alt"}}{{.}}{{else}}
+    {{.Get "caption" }}{{ end }}" {{ end }} />
   {{ if .Get "column" }}
 </div>
 {{ end }}
