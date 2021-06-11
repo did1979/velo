@@ -10,7 +10,7 @@ map: 4 rue de la folie, Rouen, France
 
 <div class="columns is-multiline is-mobile">
     <div class="column">
-<form name="contact" class="contact-form width-normal" action="/thank-you/" method="POST" netlify data-netlify="true" data-netlify-recaptcha="true">
+<form name="contact" class="contact-form width-normal" action="/merci/" method="POST" netlify data-netlify="true" data-netlify-recaptcha="true">
     <input type="hidden" name="form-name" value="contact" />
     <!-- Text input-->
       <div class="field">
@@ -27,7 +27,7 @@ map: 4 rue de la folie, Rouen, France
           <input id="contact-form-subject" name="Subject" type="text" placeholder="Subject" class="required input" required="" autocomplete="off">
         </div>
         <div class="control mb-3">
-          <textarea id="contact-form-message" class="textarea" placeholder="Votre message pour me contacter"></textarea>
+          <textarea id="contact-form-message" name="Message" class="textarea" placeholder="Votre message pour me contacter"></textarea>
         </div>
         <div data-netlify-recaptcha="true"></div>
         <div class="control mb-3">
