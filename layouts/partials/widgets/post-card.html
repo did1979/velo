@@ -7,7 +7,7 @@
       <a href="{{ $permalink }}"><img src="{{ index . 0 }}" alt=""></a>
       {{ end }}
       {{ with (.Resources.GetMatch "entete") }}
-      {{ $img := .Fill "420x280 jpg" }}
+      {{ $img := .Fill "1400x900 jpg" }}
       <a href="{{ $permalink }}"><img src="{{ $img.Permalink }}" alt=""></a>
       {{ end }}
     </figure>
