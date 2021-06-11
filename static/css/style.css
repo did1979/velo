@@ -54,23 +54,21 @@ text-transform: uppercase;
 .no-margin {
 margin: 0 !important;
 }
-<<<<<<< HEAD
-=======
 
 
-h1.tag {   
+h1.tag {
     border-radius: 2px;
     height: 1.5em;
     line-height: 1.5;
 }
 
-.pointer { cursor: pointer; border: none; } 
+.pointer { cursor: pointer; border: none; }
 
 .modal-button:hover {filter: blur(1px) brightness(90%);
    transition: filter 300ms;}
 
 .modal-content {
+    width: 90%;
     max-height: none !important;
     overflow: hidden;
 }
->>>>>>> a64f250c3ef3a41e788ceaab7003f3ba94117260

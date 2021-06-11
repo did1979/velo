@@ -7,7 +7,7 @@
       {{ end }}
 
       {{ with .Resources.GetMatch "entete" }}
-      {{ $img := .Resize "243x jpg" }}
+      {{ $img := .Fill "420x280 jpg" }}
         <a href="{{ $permalink }}"><img src="{{ $img.Permalink }}" alt="" ></a>
       {{ end }}
 

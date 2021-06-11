@@ -2,23 +2,33 @@
 title: "Les préparatifs du voyage"
 date: 2021-06-06
 draft: false
-description: 
+description:
 summary: "La date approche, j-7 avant le grand départ"
-# ReadingTime: 5
-images: ["/images/blog/2021/06/preparatifs-1.jpeg"]
+ReadingTime: 5
+#images: ["images/preparatifs-1.jpeg"]
 progress: 0
 total: 42
 voyages:
 - Tour de France
 categories:
 - Préparatifs
+resources:
+- src: 'images/entete.jpeg'
+  title: "entete"
+  name: entete
+- src: 'images/*.jpeg'
 ---
-# Les préparatifs 
+# Les préparatifs
 
 Après de longs mois de préparation, le départ est proche. Finalement cette année ce ne sera pas les pays scandinaves, mais un tour de France des copains. L'itinéraire est prêt et je vais faire une traversée de la France d'ouest en est puisque je rejoins d'abord le Finistère, puis la route de la Loire pour terminer 6 semaines plus tard par la route des vins en Alsace.
 
-![Inventaire](https://untivoyage.netlify.app/images/blog/2021/06/preparatifs-1.jpeg "Les preparatifs")
+{{< gallery class="columns is-multiline content-gallery" >}}
+{{< imgproc alt="Les preparatifs" name="**/preparatifs.jpeg" command="Resize" size="400x" column="is-full" title="Préparatifs" link="preparatifs-1" >}}
+{{< imgproc alt="Les preparatifs" name="**/preparatifs-2.jpeg" command="Resize" size="400x" column="is-full" title="Preparatifs" link="preparatifs-2" >}}
+{{< /gallery >}}
 
+<div class="columns is-multiline" >
+{{< paragraph column="is-half" >}}
 ## Inventaire
 - réchaud MSR et bouteille de gaz
 - 2 petites cantines décathlon avec couverts et bol.
@@ -34,15 +44,22 @@ Après de longs mois de préparation, le départ est proche. Finalement cette an
 - quelques outils, une chambre à air de rechauge, des lampes
 - 2 tenues de vélo et 2 tenues normales
 - une tenue pour la pluie
-
-![Inventaire](https://untivoyage.netlify.app/images/blog/2021/06/preparatifs-2.jpeg "Les preparatifs")
-
+{{< /paragraph >}}
+{{< paragraph column="is-half" >}}
 ## Loisirs
 - un ipad avec un clavier externe pour faire le blog et lire des bouquins
 - le guitalélé Yamaha avec un petit livret théorique pour bosser un peu la guitare
 - une enceinte bluetooth JBL pour écouter The National
 - une batterie externe pour recharger les appareils
 - le vélo VSF Fahrrad Manufaktur TX-400
+
+## Outils en ligne
+- Garmin Connect
+- Géovélo
+- Bikemap
+- github et un hébergement gratuit avec Netlify pour le blog
+{{< /paragraph >}}
+</div>
 
 ## Itinéraire
 - Rouen - Caen
@@ -62,13 +79,6 @@ Après de longs mois de préparation, le départ est proche. Finalement cette an
 - Nantes - Tours - Orléans - Metz
 - Metz - Hagueau
 - La route des vins d'Alsace
-  
-## Outils en ligne
-- Garmin Connect
-- Géovélo
-- Bikemap
-- github et un hébergement gratuit avec Netlify pour le blog
-
 
 ## Pour les geeks
 Le blog est fait avec [Hugo](https://gohugo.io). Je développe directement sur l'Ipad avec l'appli [Working Copy](https://workingcopyapp.com) qui permet de pousser le code dans Github. Et dans Github, j'ai configurer pour pousser en production et complier le code vers Netlify.

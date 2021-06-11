@@ -2,7 +2,7 @@
 title: "test des images"
 date: 2021-06-07
 draft: true
-description: 
+description:
 summary: "La date approche, j-7 avant le grand départ"
 ReadingTime: 5
 progress: 0
