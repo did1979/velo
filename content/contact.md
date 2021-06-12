@@ -24,7 +24,7 @@ map: 4 rue de la folie, Rouen, France
         </div>
         <div class="control mb-3 has-icons-left">
           <span class="icon is-small is-left"><i class="fas fa-info"></i></span>
-          <input id="contact-form-subject" name="Subject" type="text" placeholder="Subject" class="required input" required="" autocomplete="off">
+          <input id="contact-form-subject" name="Subject" type="text" placeholder="sujet" class="required input" required="" autocomplete="off">
         </div>
         <div class="control mb-3">
           <textarea id="contact-form-message" name="Message" class="textarea" placeholder="Votre message pour me contacter"></textarea>

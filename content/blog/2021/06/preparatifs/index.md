@@ -77,7 +77,7 @@ Après de longs mois de préparation, le départ est proche. Finalement cette an
 - Belle Île en Mer - Quimiac
 - Quimiac - Nantes
 - Nantes - Tours - Orléans - Metz
-- Metz - Hagueau
+- Metz - Haguenau
 - La route des vins d'Alsace
 
 ## Pour les geeks
