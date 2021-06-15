@@ -16,8 +16,8 @@ resources:
   title: "pont de Normandie"
   name: entete
 - src: 'images/*.jpg'
+---
 
-—-
 
 14 juin 2021, 9h. C’est le jour 1 celui qu’on retient.
 Je vais essayer d’être régulier et de donner des nouvelles au quotidien.
