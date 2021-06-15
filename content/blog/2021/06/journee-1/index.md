@@ -32,18 +32,18 @@ Donc aujourd’hui direction Deauville. Une grosse étape pour démarrer. On com
 
 
 {{< gallery class="columns is-multiline content-gallery" >}}
-{{< imgproc name="**/champ-lin.jpg" command="Resize" size="300x" column="is-half" title="Champ de lin" link="champ de lin">}}
+{{< imgproc name="**/champ-lin.jpg" command="Resize" size="300x" column="is-half" title="Champ de lin" link="champ de lin" >}}
 {{< imgproc name="**/pont-normandie-2.jpg" command="Resize" size="300x" column="is-half" title="Pont de Normandie" link="pont" >}}
 {{< /gallery >}}
 
 
 Après on bonne matinée de 40km, la pause s’impose. C’est le moment de tester le matos de camping. 
 
-{{< imgproc name="**/dejeuner.jpeg" command="Resize" size="300x" title="dejeuner" link="dejeuner">}}
+{{< imgproc name="**/dejeuner.jpeg" command="Resize" size="300x" title="dejeuner" link="déjeuner" >}}
 
 C’est reparti pour 60km direction Honfleur. 
 Nous arrivons vers 18h30. C’était tout de même bien difficile pour moi. Mais le camping est bien, j’ai réussi a pensé à peu près à tout. 
 Une petite bière, un kinoa et au lit. 
 
-{{< imgproc name="**/biere-did.jpeg" command="Resize" size="300x" title="bière en terrasse" link="bière">}}
+{{< imgproc name="**/biere-did.jpeg" command="Resize" size="300x" title="bière en terrasse" link="bière" >}}
 
