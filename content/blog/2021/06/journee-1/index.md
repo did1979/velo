@@ -45,5 +45,5 @@ C’est reparti pour 60km direction Honfleur.
 Nous arrivons vers 18h30. C’était tout de même bien difficile pour moi. Mais le camping est bien, j’ai réussi a pensé à peu près à tout. 
 Une petite bière, un kinoa et au lit. 
 
-{{< imgproc name="**/biere-did.jpeg" command="Resize" size="300x" title="bière en terrasse" link="bière" >}}
+{{< imgproc name="**/biere-did.jpg" command="Resize" size="300x" title="bière en terrasse" link="bière" >}}
 
