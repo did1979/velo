@@ -39,7 +39,7 @@ Donc aujourd’hui direction Deauville. Une grosse étape pour démarrer. On com
 
 Après on bonne matinée de 40km, la pause s’impose. C’est le moment de tester le matos de camping. 
 
-{{< imgproc name="**/dejeuner.jpeg" command="Resize" size="300x" title=dejeuner link="dejeuner">}}
+{{< imgproc name="**/dejeuner.jpeg" command="Resize" size="300x" title="dejeuner" link="dejeuner">}}
 
 C’est reparti pour 60km direction Honfleur. 
 Nous arrivons vers 18h30. C’était tout de même bien difficile pour moi. Mais le camping est bien, j’ai réussi a pensé à peu près à tout. 
