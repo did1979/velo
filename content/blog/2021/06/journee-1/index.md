@@ -26,6 +26,8 @@ Il faut un temps superbe pour démarrer ce périple qui va me faire traversé la
 Rendez-vous avec Patrick sur les quais de Rouen. 
 Patrick fait aussi des voyages à vélo et il m’a proposé de m’accompagner pour le démarrage pendant 2 jours. C’est trop cool. 
 
+{{< imgproc name="**/velo.jpeg" command="Resize" size="300px" title="vélo" link="vélo">}}
+
 Donc aujourd’hui direction Deauville. Une grosse étape pour démarrer. On compte environ 160km pour rejoindre Caen que nous allons faire en 2 jours.
 
 
