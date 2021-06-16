@@ -1,11 +1,11 @@
 ---
 title: "Journee 2"
-date: 2021-06-09T07:21:14+02:00
+date: 2021-06-16
 draft: true
-description: ""
-summary: ""
+description: "Honfleur - Caen"
+summary: "une belle journée pour le vélo"
 ReadingTime: 5
-progress: 1
+progress: 2
 total: 44
 resources:
 - src: 'images/entete.jpg'

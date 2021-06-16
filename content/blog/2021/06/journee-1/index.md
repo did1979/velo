@@ -37,7 +37,7 @@ Donc aujourd’hui direction Deauville. Une grosse étape pour démarrer. On com
 {{< /gallery >}}
 
 
-Après on bonne matinée de 40km, la pause s’impose. C’est le moment de tester le matos de camping. 
+Après une bonne matinée de 40km, la pause s’impose. C’est le moment de tester le matos de camping. 
 
 {{< imgproc name="**/dejeuner.jpeg" command="Resize" size="300x" title="dejeuner" link="déjeuner" >}}
 
