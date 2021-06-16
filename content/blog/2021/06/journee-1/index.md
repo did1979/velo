@@ -22,9 +22,9 @@ resources:
 14 juin 2021, 9h. C’est le jour 1 celui qu’on retient.
 Je vais essayer d’être régulier et de donner des nouvelles au quotidien.
 
-Il faut un temps superbe pour démarrer ce périple qui va me faire traversé la France d’ouest en est pendant 6 semaines. 
+Il fait un temps superbe pour démarrer ce périple qui va me faire traverser la France d’ouest en est pendant 6 semaines. 
 Rendez-vous avec Patrick sur les quais de Rouen. 
-Patrick fait aussi des voyages à vélo et il m’a proposé de m’accompagner pour le démarrage pendant 2 jours. C’est trop cool. 
+Patrick fait aussi des voyages à vélo et il a proposé de m’accompagner pour le démarrage pendant 2 jours. C’est trop cool. 
 
 {{< imgproc name="**/velo.jpeg" command="Resize" size="300x" title="vélo" link="vélo">}}
 
