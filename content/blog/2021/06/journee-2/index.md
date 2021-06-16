@@ -30,7 +30,7 @@ Par contre la population locale de Cabourg nous a forcé à longer la plage en �
 
 après quelques courses et les 40 premier kilomêtres, on se mange un super sandwich face à la plage et une baignade pour reprendre des forces. Le test du réchaud à alcool de Patrick fabriqué avec des canettes de soda est concluant.
 {{< gallery class="columns is-multiline content-gallery" >}}
-{{< imgproc name="**/racontars-plage.jpg" command="Resize" size="300x" column="is-half" title="Je pense à la librarie des Racontars" link="racontars" >}}
+{{< imgproc name="**/racontars-plage.jpeg" command="Resize" size="300x" column="is-half" title="Je pense à la librarie des Racontars" link="racontars" >}}
 {{< imgproc name="**/ramses.jpeg" command="Resize" size="300x" column="is-half" title="Ramses" link="ramses" >}}
 {{< /gallery >}}
 Puis nous continuons la voie verte pour rejoindre enfin Saint Martin. Sèb et Aurélie nous attendaient le pied ferme pour l'apéro. C'est l'occasion de faire connaissance avec le petit nouveau de la famille nommé Ramsès.
