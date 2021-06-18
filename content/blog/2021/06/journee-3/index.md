@@ -28,7 +28,7 @@ Anciennes gares transformées en habitation, viaduc et tunnels se succèdent.
 {{< /gallery >}}
 
 Depuis les viaducs, on peut apercevoir de superbes paysages.
-{{< imgproc name="**/nuage.jpeg" command="Resize" size="300x" title="Point de vue" link="nuage" >}}
+{{< imgproc name="**/nuages.jpeg" command="Resize" size="300x" title="Point de vue" link="nuage" >}}
 {{< imgproc name="**/clecy.jpeg" command="Resize" size="300x" title="Falaises de Clécy" link="clecy" >}}
 
 
