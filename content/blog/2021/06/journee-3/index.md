@@ -28,15 +28,19 @@ Anciennes gares transformées en habitation, viaduc et tunnels se succèdent.
 {{< /gallery >}}
 
 Depuis les viaducs, on peut apercevoir de superbes paysages.
-{{< imgproc name="**/nuages.jpeg" command="Resize" size="300x" title="Point de vue" link="nuage" >}}
-{{< imgproc name="**/clecy.jpeg" command="Resize" size="300x" title="Falaises de Clécy" link="clecy" >}}
+{{< imgproc name="**/nuages.jpeg" command="Resize" size="900x" title="Point de vue" link="nuage" >}}
+{{< imgproc name="**/clecy.jpeg" command="Resize" size="900x" title="Falaises de Clécy" link="clecy" >}}
 
 
 J’écoute [Eldorado](https//www.radio-eldorado.fr), l’émission de Pierre Lemarchand (un peu de pub pour les copains). Lz reprise de **Where is my mind** des Pixies de A. A. Williams est trop belle, à écouter dans l'émission 150.
 
+
+<div class="columns is-multiline" >
+{{< paragraph column="is-half" >}}
 L'orage n'aura pas réussi à me rattraper et après pas mal de petites montées qui piquent, je retrouve Béa et Gab qui m'accueillent chez avec un petit apéro au bord de l'Orne et une visite du terrain sompteux, autour de l'ancienne voie de chemin de fer.
 Merci beaucoup pour votre accueil Gab et Béa.
-
-{{< imgproc name="**/gab.jpeg" command="Resize" size="300x" title="Gab" link="gab" >}}
+{{< /paragraph >}}
+{{< imgproc name="**/gab.jpeg" command="Resize" size="450x" title="Gab" link="gab" column="is-half" >}}
+</div>
 
 

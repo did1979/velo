@@ -29,8 +29,8 @@ Je traverse la forêt du parc Normandie Maine pour rejoindre Domfront, la cité 
 {{< imgproc name="**/panorama.jpeg" command="Resize" size="900x" title="Point de vue" link="panorama" >}}
 Je rejoins la voie verte. J'essaie de prendre un raccourci par la départementalevia Saint Hilaire du Harcouët, mais c'est insupportable le bruit des voitures et leur vitesse. De retour sur la voie verte, je retrouve le calme des oiseaux. Une buse décolle juste devant moi, les escargots passent une journée à traverser le chemin... bref c'est paisible et dépaysant. Pour me motiver étrangement dans l'émission  [Eldorado](https//www.radio-eldorado.fr), le tube **Rylan** de The National apparait sonne tout à coup.
 Enfin après 10h de vélo et 116km, nouveau record, j'aperçois dans le brume le Mont Saint Michel. 
-{{< imgproc name="**/Michel.jpeg" command="Resize" size="900x" title="Mont Saint Michel" link="michel" >}}
+{{< imgproc name="**/Michel.jpeg" command="Resize" size="300x" title="Mont Saint Michel" link="michel" >}}
 Bon on ne voit pas grand chose, mais c'est bon d'être arrivé.
-{{< imgproc name="**/camping.jpeg" command="Resize" size="900x" title="ampement" link="camping" >}}
+{{< imgproc name="**/camping.jpeg" command="Resize" size="300x" title="ampement" link="camping" >}}
 
 
