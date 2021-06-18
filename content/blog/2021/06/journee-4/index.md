@@ -1,7 +1,7 @@
 ---
 title: "Journée 4"
 date: 2021-06-18T07:25:08+02:00
-draft: true
+draft: false
 description: "Objectif Mont Szint Michel, 135km"
 summary: ""
 ReadingTime: 5
