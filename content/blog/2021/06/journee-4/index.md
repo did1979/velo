@@ -22,7 +22,7 @@ Ce matin je n'ai plus trop de douleur musclaire à la cuisse et je doit faire 19
 Je trouve enfin comment dompter le GPS Garmin qui est un peu capricieux.
 J'enchaine ensuite dès 8h30 des montées de dingue pour sortir de la vallée de l'Orne. Pierre si tu lis ces lignes tu peux commencer à mettre de côté pour un vélo électrique car tes remorques [de Son et Sciure](https://dsonetscuire.wordpress.com) ne risquent pas de monter les cotes.
 {{< gallery class="columns is-multiline content-gallery" >}}
-{{< imgproc name="**/foret.jpeg" command="Resize" size="300x" column="is-half" title="Message perso" link="train" >}}
+{{< imgproc name="**/forêt.jpeg" command="Resize" size="300x" column="is-half" title="Message perso" link="train" >}}
 {{< imgproc name="**/donfront.jpeg" command="Resize" size="300x" column="is-half" title="Domfront" link="domfront" >}}
 {{< /gallery >}}
 Je traverse la forêt du parc Normandie Maine pour rejoindre Domfront, la cité médiévale fortifiée, au coeur du pays domfrontois.
