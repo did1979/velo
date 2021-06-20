@@ -40,7 +40,7 @@ Je rattrappe enfin une voie verte plus abritée pour rejoindre Dinan via le pont
 {{< imgproc name="**/bibliotheque.jpeg" command="Resize" size="900x" title="La voie verte" link="biblio" >}}
 {{< /paragraph >}}
 </div>
-{{< imgproc name="**/rance.jpeg" command="Resize" size="960x" title=Le pont de la Rance" link="rance" >}}
-{{< imgproc name="**/rance-2.jpeg" command="Resize" size="960x" title=Le pont de la Rance" link="rance2" >}}
+{{< imgproc name="**/rance.jpeg" command="Resize" size="960x" title="Le pont de la Rance" link="rance" >}}
+{{< imgproc name="**/rance-2.jpeg" command="Resize" size="960x" title="Le pont de la Rance" link="rance2" >}}
 
 Enfin j'arrive chez Hélène et Fabien après 90km de route bien vallonnée. Fabien a préparé des pates au roquefort, un délice.
