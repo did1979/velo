@@ -19,9 +19,7 @@ voyages:
 
 Il a plu toute la nuit, je profite d'une accalmie à 7h du matin pour sortir de la tente et commencer à ranger, à l'abri. Le café au sec est le bienvenu pendant que tout sèche lentement.
 Ce soir je dormirai dans un vrai lit chez Fabien et Hélène, mais il faut parcourir 90 km pour rejoindre Plelan le Petit.
-
 {{< imgproc name="**/pano-baie.jpeg" command="Resize" size="900x" title="La baie du Mont Saint Michel" link="baie" >}}
-
 Avant, je fais un crochet près du Mont Saint Michel. Le temps n'est pas de la partie et ce dernier est dans le brouillard. Cela ne m'empêche pas de déguster un petit café en admirant le paysage.
 {{< imgproc name="**/cafe.jpeg" command="Resize" size="960x" title="Café" link="cafe" >}}
 Après un petit bout de route avec un gars de 25 ans qui fait aussi un tour de France, je reprends la voie verte le long de la baie du Mont Saint Michel.
