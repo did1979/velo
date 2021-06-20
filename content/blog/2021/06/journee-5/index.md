@@ -1,6 +1,6 @@
 ---
 title: "Journée 5"
-date: 2021-06-18T07:25:08+02:00
+date: 2021-06-18T09:25:08+02:00
 draft: false
 description: "La baie du Mont Saint Michel"
 summary: "On passe la frontière bretonne, mais la météo est la même."
