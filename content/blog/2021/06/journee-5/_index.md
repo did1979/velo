@@ -12,7 +12,6 @@ resources:
   title: "entete"
   name: entete
 - src: 'images/*.jpg'
-- src: 'images/*.jpeg'
 voyages:
 - Tour de France
 
