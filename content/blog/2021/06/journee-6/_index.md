@@ -8,10 +8,9 @@ ReadingTime: 5
 progress: 6
 total: 44
 resources:
-- src: 'images/entete.jpeg'
+- src: 'images/pano-becherel.jpeg'
   title: "entete"
   name: entete
-- src: 'images/*.jpg'
 - src: 'images/*.jpeg'
 voyages:
 - Tour de France
