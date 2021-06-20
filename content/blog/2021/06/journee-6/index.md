@@ -1,7 +1,7 @@
 ---
 title: "Journée 6 - Rennes by the rain"
 date: 2021-06-19T16:25:08+02:00
-draft: true
+draft: flase
 description: "Direction Rennes, 66 km"
 summary: "Aujourd'hui, je parcours les routes vallonées de Bretagne en direction de Rennes."
 ReadingTime: 5
