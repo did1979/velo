@@ -17,7 +17,7 @@ resources:
 
 ---
 <div class="columns is-multiline">
-{{< imgproc name="**/petit-dej.jpeg" command="Resize" size="450x" title="Petit-Déj" link="petit" column="is-half" >}}
+{{< imgproc name="**/portrait.jpeg" command="Resize" size="450x" title="Portrait" link="portrait" column="is-half" >}}
 {{< paragraph column="is-half">}}
 Ce matin nous devons nous lever très tôt pour être à 8h30 au bateau pour embarquer vers l’île de Ouessant. 
 Bon ça devient une habitude. Tout est trempé à cause de la rosée. On remballe et on chope de quoi faire le p'tit-déj' et le déjeuner dans une boulangerie.
@@ -26,8 +26,6 @@ Après 1h30, nous arrivons sur Ouessant mais il y a pas mal de brume.
 {{< /paragraph >}}
 
 {{< imgproc name="**/deuche.jpeg" command="Resize" size="960x" title="Deudeuch" link="deuche" >}}
-
-{{< imgproc name="**/portait.jpeg" command="Resize" size="960x" title="Les cyclotourismes" link="portrait" >}}
 
 {{< paragraph column="is-half">}}
 C’est parti pour le tour de l’île qui fait environ 35km. 
