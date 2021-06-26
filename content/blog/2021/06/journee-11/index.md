@@ -39,7 +39,7 @@ A Ouessant même s’il ne fait beau que quelques jours dans l’année, il peut
 {{< gallery class="columns is-multiline content-gallery" >}}
 {{< imgproc name="**/lanternes.jpeg" command="Resize" size="450x" column="is-half" title="Lanternes" link="lanternes" >}}
 {{< imgproc name="**/lanternes-2.jpeg" command="Resize" size="450x" column="is-half" title="Encore des lanternes" link="lanternes2" >}}
-{{{< imgproc name="**/abri.jpeg" command="Resize" size="450x" column="is-half" title="Abri" link="abri" >}}
+{{< imgproc name="**/abri.jpeg" command="Resize" size="450x" column="is-half" title="Abri" link="abri" >}}
 {{< imgproc name="**/cailloux.jpeg" command="Resize" size="450x" column="is-half" title="Devinez les formes dans les cailloux" link="cailloux" >}}
 {{< imgproc name="**/paysage-velo.jpeg" command="Resize" size="450x" column="is-half" title="Pub pour Ortlieb & Fahrrad Manufaktur" link="paysage" >}}
 {{< imgproc name="**/port.jpeg" command="Resize" size="450x" column="is-half" title="Port" link="port" >}}
