@@ -40,11 +40,11 @@ Le samedi nous devons rejoindre Douarnenez car nous sommes invités à diner che
 {{< paragraph column="is-half">}}
 Nous sommes un peu contraints de nous poser pour déjeuner. Et le MacDan à Pentrez fait le plein aujourd'hui avec le tour de France. C'est le gros rush. 
 {{< /paragraph >}}
-  <div class="column">
+{{< paragraph column="is-half">}}
     <video width="320" height="240" controls>
   <source src="/images/blog/2021/06/peloton.MOV" type="video/mp4">
 </video>
-  </div>
+{{< /paragraph >}}
 
 {{< imgproc name="**/biere-tdf.jpeg" command="Resize" size="450x" title="Une petite Goudale en, attendant le burger du MacDan" link="bieretdf" column="is-half" >}}
 
