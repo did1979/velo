@@ -40,20 +40,22 @@ Le samedi nous devons rejoindre Douarnenez car nous sommes invités à diner che
 {{< paragraph column="is-half">}}
 Nous sommes un peu contraints de nous poser pour déjeuner. Et le MacDan à Pentrez fait le plein aujourd'hui avec le tour de France. C'est le gros rush. 
 {{< /paragraph >}}
-{{< paragraph column="is-half">}}
+  <div class="column is-half">
     <video width="320" height="240" controls>
   <source src="/images/blog/2021/06/peloton.MOV" type="video/mp4">
 </video>
-{{< /paragraph >}}
-
+</div>
+</div>
+<div class="columns is-multiline">
 {{< imgproc name="**/biere-tdf.jpeg" command="Resize" size="450x" title="Une petite Goudale en, attendant le burger du MacDan" link="bieretdf" column="is-half" >}}
 
 {{< paragraph column="is-half">}}
 Il nous reste 18km pour arrriver à Douarnenez. mais l'entrée de la ville se fait par une énorme côte assez longue. Le paysage est joli mais c'est chaud quand même. Enfin on arrive. J1 n ous installe chez ses potes Tristan et Maïté qui nous prêtent leur appartement. Merci beaucoup à eux.
-{ ça fait du bien de dormir au sec sur un vrai matelas. J1 et Anna nous ont préparer un super repas de pâtes à l'italienne et on passeun très bonne soirée à essayer de comprendre comment calculer l"hypothénus d'un triangle avec une différence de pente de plus on moins 3%... J1 est en chantier chappe de béton en cemoment. :-) 
+{ ça fait du bien de dormir au sec sur un vrai matelas. J1 et Anna nous ont préparer un super repas de pâtes à l'italienne et on passeun très bonne soirée à essayer de comprendre comment calculer l"hypothénus d'un triangle avec une différence de pente de plus on moins 3%... J1 est en chantier chappe de béton en ce moment. :-) 
 {< /paragraph >}}
 {{< imgproc name="**/dessert.jpeg" command="Resize" size="450x" title="Le célèbre Kouign-amann" link="dessert" column="is-half" >}}
 </div>
+
 Dimanche, c'est le jour du retour pour Sèb. Nous rejoingons Quimper pour profiter ensem ble d'un derniere repas avant de prendre le train. Je descends à Lorient et laisse Sèb continuer vers Rennes retrouver sa petite famille.
 {{< imgproc name="**/velo-train.jpeg" command="Resize" size="960x" title="Vélo dans le TGV, c'est bien pensé" link="velo" >}}
 
