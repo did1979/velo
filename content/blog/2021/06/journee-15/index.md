@@ -55,6 +55,6 @@ J'avance bien, il ne pleut pas. 70km tout de même à parcourir, mais déjà je 
 
 J'arrive enfin et retrouve mes enfants bien en forme, je vais me poser un peu ici. donc prochaine étape dimanche prochain poura faire le Quimiac - Nantes
 
-Une petite dédicace pour Sèb, j'ai trouvé le bon Kamtar !!!! (écouter Ultra Vomit - Kamar pour avoir la reférence.
+Une petite dédicace pour Sèb, j'ai trouvé le bon Kamtar !!!! (écouter Ultra Vomit - Kamtar pour avoir la reférence.
 
 {{< imgproc name="**/camion.jpeg" command="Resize" size="960x" title="Camion aménagé" link="camion" >}}
