@@ -1,64 +1,62 @@
 ---
-title: "Journées 12, 13 et 14"
-date: 2021-06-27
+title: "Journées 15 et 16"
+date: 2021-06-30
 draft: false
-description: "Le temps passe vite au coeur du Finistère. Pluie, brouillard et sale temps sur la côte."
-summary: "La visite de la presqu'île de Crozon, arrivée a Douarnenez et d'autres perigrinations."
+description: "Aujourd'hui, je prends la route direction Vannes et le golfe du Morbihan pour rejoindre ensuite demain Quimiac près de Guérande."
+summary: "Aujourd'hui, je prends la route direction Vannes et le golfe du Morbihan pour rejoindre ensuite demain Quimiac près de Guérande."
 ReadingTime: 5
-progress: 14
+progress: 16
 total: 44
 voyages:
 - Tour de France
 resources:
-- src: 'images/pano-maison.jpeg'
-  title: "ile de Saint Cado"
+- src: 'images/pano-moines.jpeg'
+  title: "L'île aux moines"
   name: entete
 - src: 'images/*.jpeg'
-- src: 'images/peloton.MOV'
-  name: peloton
+- src: 'images/*.png'
 ---
+
+Lundi, il pleut depuis 6h du matin. Il est 10h et il est temps de se mouiller un peu pour tout ranger et décoller. Le tour de France va repasser dans le coin et je ne veut pas me retrouver bloqué de nouveau.
+Tout est complètement trempé et la tente pèse deux fois plus. je pars enfin du camping pour rejoindre Auray afin de trouver un endroit où me poser pour participer à la visio de boulot.
+{{< imgproc name="**/visio.jpeg" command="Resize" size="960x" title="Visio au café" link="visio" >}}
+
 <div class="columns is-multiline">
-{{< imgproc name="**/epaves.jpeg" command="Resize" size="450x" title="Tour Vauban à Camaret sur mer" link="epaves" column="is-half" >}}
 {{< paragraph column="is-half">}}
-On est vendredi aujourd'hui. enfin il y a déjà 3 jours. le temps passe assez vite et je n'a pas toujours le temps de faire l'article quotidien. Les journées se succèdent et la routine se met doucement en place. replier tente, affaires de couchage, café, ranger les sacoches, faire du vélo, manger, déplier la tente trempée, vider les sacoches, manger... bref c'est un métier à temps plein les vacances à vélo. Du coup nous sommes reparti de Brest vendredi matin après le petit déjeuner offert par Marie.
+Un petit coup d'oeil sur la météo et franchement c'est pas gagné. Je m'imagine déjà dérouler la tente sous la pluie qui tomber et dormi dans la tente complètemnet trempée.
+{{< imgproc name="**/meteo.png" command="Resize" size="350x" title="Prévisions pour l'après-midi" link="prevision" >}}
 {{< /paragraph >}}
-Nous prenons de nouveau le bateau pour nous rendre à Le Fret, sur la presqu'île du Crozon. Il comence à bien pleuvoir et le brouillard est de plus en plus épais. On se pose le midi à Cameret sur mer car c'est impossible de rouler sous la pluie.
-{{< imgproc name="**/derriere.jpeg" command="Resize" size="960x" title="Derriere" link="derriere" >}}
-{{< imgproc name="**/devant.jpeg" command="Resize" size="960x" title="Devant" link="devant" >}}
-Le long des falaises, on se croierait en Irlande. les paysages font penser aux falaises de Moher. On ne voit rien ni devant ni derrière.
-
-{{< imgproc name="**/falaises.jpeg" command="Resize" size="960x" title="Falaises de Crozon" link="falaises" >}}
-
-{{< paragraph column="is-half">}}
-Finalement on abandonne à Morgat et après 2 bières sous la pluie, nous nous réfugions dans un camping. Le petit réconfort, c'est que le camping a une piscine et un sauna. ça réchauffe bien. et nous parvenons à nous poser à l'abri pour diner un repas maison avec des pâtes au curcuma.
-{{< /paragraph >}}
-{{< imgproc name="**/pates.jpeg" command="Resize" size="450x" title="Des pâtes à l'abri" link="pates" column="is-half" >}}
+{{< imgproc name="**/radar.png" command="Resize" size="450x" title="Radar météo" link="radar" column="is-half" >}}
 </div>
 
 <div class="columns is-multiline">
 {{< paragraph column="is-half">}}
-Le samedi nous devons rejoindre Douarnenez car nous sommes invités à diner chez J1 et Anna. 40km c'est pas beaucoup. Mais c'était sans compte sur le départ du tour de France. Ils ont choisi de prendre la même route que nous. Cela nous impose un détour par les champs pour éviter les barrages. Le test de robustesse N.18 des sacoches passe. jusqu'ici le matos tient le coup.
-Nous sommes un peu contraints de nous poser pour déjeuner. Et le MacDan à Pentrez fait le plein aujourd'hui avec le tour de France. C'est le gros rush. 
+La réunion se prolonge. C'est pas évident de se concentrer alors que sur la place une fanfare de bignou joue à fond pour motiver les coureurs du tour qui passent à 14h30 a Auray. Le café se remplit mais je parviens à rester dans l'ambiance de la réunion RH. La pluie continue de plus belle. Je commence à envoyer des messages aux accueils Warmshower disponibles près de Vannes. Et magie un couple de retraité m'accueille dans leur maison familiale, datant du 18ème. C'est gigantesque et la vue est à tomber par terre. 
 {{< /paragraph >}}
-  <div class="column is-half">
-    <video width="320" height="240" controls>
-  <source src="/images/blog/2021/06/peloton.MOV" type="video/mp4">
-</video>
-</div>
+{{< imgproc name="**/etang.jpeg" command="Resize" size="450x" title="Vue de ma chambre" link="etang" column="is-half" >}}
 </div>
 
 <div class="columns is-multiline">
-{{< imgproc name="**/biere-tdf.jpeg" command="Resize" size="450x" title="Une petite Goudale en, attendant le burger du MacDan" link="bieretdf" column="is-half" >}}
+{{< imgproc name="**/pointe.jpeg" command="Resize" size="960x" title="La pointe d'Ars" link="pointe" column="is-full" >}}
 
 {{< paragraph column="is-half">}}
-Il nous reste 18km pour arrriver à Douarnenez. mais l'entrée de la ville se fait par une énorme côte assez longue. Le paysage est joli mais c'est chaud quand même. Enfin on arrive. J1 n ous installe chez ses potes Tristan et Maïté qui nous prêtent leur appartement. Merci beaucoup à eux.
-{ ça fait du bien de dormir au sec sur un vrai matelas. J1 et Anna nous ont préparer un super repas de pâtes à l'italienne et on passeun très bonne soirée à essayer de comprendre comment calculer l"hypothénus d'un triangle avec une différence de pente de plus on moins 3%... J1 est en chantier chappe de béton en ce moment. :-) 
+wMes hôtes m'offrent le dîner et me propose une petite ballade digestive à la pointe d'Ars en face de lîle aux moines 
 {{< /paragraph >}}
-{{< imgproc name="**/dessert.jpeg" command="Resize" size="450x" title="Le célèbre Kouign-amann" link="dessert" column="is-half" >}}
+{{< imgproc name="**/pointe-2.jpeg" command="Resize" size="450x" title="L'île aux moines" link="pointe2" column="is-half" >}}
 </div>
 
-Dimanche, c'est le jour du retour pour Sèb. Nous rejoingons Quimper pour profiter ensem ble d'un derniere repas avant de prendre le train. Je descends à Lorient et laisse Sèb continuer vers Rennes retrouver sa petite famille.
-{{< imgproc name="**/velo-train.jpeg" command="Resize" size="960x" title="Vélo dans le TGV, c'est bien pensé" link="velo" >}}
+Après une très bonne nuit et un bon petit déjeuner, c'est reparti pour la dernière étape avant une pause de quelques jours à Quimiac avec les enfants et les parents. Je passe dans le centre de Vannes avec son port et sa porte en pierre.
 
-A Lorient, je reprends la route pour rejoindre la Ria d'Etel, une rivière sui coule dans un aber. La baie est assez profonde dans les terres et on peut voir plein d'ilots. A SaintCado, l'ilot avec une ptite maison est très beau et je me pose en face pour déguster une petite bière avant le repas du soir dans le camping.
-{{< imgproc name="**/biere-cado.jpeg" command="Resize" size="960x" title="Bière à Saint-Cado" link="bierecado" >}}
+{{< imgproc name="**/port-vannes.jpeg" command="Resize" size="960x" title="Le petit port de Vannes" link="port" >}}
+
+{{< imgproc name="**/vannes.jpeg" command="Resize" size="960x" title="La porte de Vannes" link="porte" >}}
+
+J'avance bien, il ne pleut pas. 70km tout de même à parcourir, mais déjà je commence à reconnaître la route et les marais. J'arrive vers 14h, 70km en 4h30, c'est un bon rythme. On est loin des coureurs du tour mais qu'ils prennent un peu les sacoches plutôt que 1000 voitures d'accompagnateurs et on verra leurs performances.
+
+{{< imgproc name="**/marais.jpeg" command="Resize" size="960x" title="Marais salants" link="marais" >}}
+
+J'arrive enfin et retrouve mes enfants bien en forme, je vais me poser un peu ici. donc prochaine étape dimanche prochain poura faire le Quimiac - Nantes
+
+Une petite dédicace pour Sèb, j'ai trouvé le bon Kamtar !!!! (écouter Ultra Vomit - Kamar pour avoir la reférence.
+
+{{< imgproc name="**/camion.jpeg" command="Resize" size="960x" title="Camion aménagé" link="camion" >}}
