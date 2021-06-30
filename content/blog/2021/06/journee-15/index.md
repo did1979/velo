@@ -35,12 +35,10 @@ La réunion se prolonge. C'est pas évident de se concentrer alors que sur la pl
 {{< /paragraph >}}
 {{< imgproc name="**/etang.jpeg" command="Resize" size="450x" title="Vue de ma chambre" link="etang" column="is-half" >}}
 </div>
-
-<div class="columns is-multiline">
 {{< imgproc name="**/pointe.jpeg" command="Resize" size="960x" title="La pointe d'Ars" link="pointe" column="is-full" >}}
-
+<div class="columns is-multiline">
 {{< paragraph column="is-half">}}
-wMes hôtes m'offrent le dîner et me propose une petite ballade digestive à la pointe d'Ars en face de lîle aux moines 
+Mes hôtes m'offrent le dîner et me propose une petite ballade digestive à la pointe d'Ars en face de l'île aux moines. 
 {{< /paragraph >}}
 {{< imgproc name="**/pointe-2.jpeg" command="Resize" size="450x" title="L'île aux moines" link="pointe2" column="is-half" >}}
 </div>
