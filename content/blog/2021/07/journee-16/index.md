@@ -32,7 +32,7 @@ Après 2 bières locales, une galette saucisse et une crêpe nutella, nous repar
 {{< paragraph column="is-half">}}
 Il fait beau, c'est plat, le vélo avance bien. On peut voir toutes les constructions artistiques mises en place le long de la Loire comme le squelette de serpent géant, la maison sur la cheminée de l'usine EDF, le fort du moyen-âge au coeur d'un jardin asiatique et le bateau qui plonge à l'eau.
 {{< /paragraph >}}
-{{< imgproc name="**/serpent.jpeg" command="Resize" size="450x" title="Serpent de mer de Saint Brévin les pins" link="serpent" column="is-half">}}
+{{< imgproc name="entete" command="Resize" size="450x" title="Serpent de mer de Saint Brévin les pins" link="serpent" column="is-half">}}
 
 {{< imgproc name="**/chateau.jpeg" command="Resize" size="450x" title="Château fort asiatique" link="chateau" column="is-half" >}}
 {{< imgproc name="**/maison.jpeg" command="Resize" size="450x" title="Une maison sur l'usine" link="maison" >}}
