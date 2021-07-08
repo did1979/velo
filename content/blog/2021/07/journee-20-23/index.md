@@ -17,7 +17,7 @@ Enfin après environ 6h de route j’attends un camping plutôt cool avec la pis
 
 D’aussi loin que je me souvienne, c’est la première fois que je me lève et que je peux replier le matos avec le soleil. 
 
-Aujourd’hui je continue de longe la Loire à vélo. Le parcours est très bien fléché et il n’y a qu’adorent jamais de côte sauf si on cherche les ennuie et qu’on veut monter voir un château. La c’est la côte A 15%. 
+Aujourd’hui je continue de longer la Loire à vélo. Le parcours est très bien fléché et il n’y a qu’adorent jamais de côte sauf si on cherche les ennuie et qu’on veut monter voir un château. La c’est la côte A 15%. 
 Je rejoins Saumur pour manger le midi. C’est super joli comme petite ville, avec le panorama du château, les bâtiments très bien conservés et un centre ville tranquille.
 J’en profite pour repasser dans le décathlon pour trouver une recharge de gaz pour le réchaud. Aujourd’hui je suis un peu fatigué et je ne fais que 75km pour m’arrêter dans un camping très nature. Je rencontre Tommy qui vient de Nancy et qui fait le voyage dans l’autre sens et on partage nos expériences autour d’une pizza.
-Encore une bonne soirée couché à 21h. Demain ce sera direction Tours avec une étape à environ 80km. 
+Encore une bonne soirée couché à 21h. Demain ce sera direction Tours avec une étape à environ 80km.
