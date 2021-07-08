@@ -1,5 +1,5 @@
 ---
-title: "Journées 23 et 24"
+title: "Journées 22 et 23"
 date: 2021-07-07
 draft: false
 description: "Lundi pluvieux, comme un lundi, vivement mardi."
